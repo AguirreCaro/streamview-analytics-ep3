@@ -3,7 +3,7 @@
 Proyecto de la **Evaluación Parcial N°3** de *ADY1104 — Visualización de Datos* (Duoc UC). Caso: **StreamView Analytics**.
 Integra dos fuentes (películas y series), calcula los KPIs del catálogo, genera los gráficos del análisis exploratorio y contiene el dashboard de Power BI y los documentos del proyecto. **Todo el proyecto está en esta carpeta.**
 
-**Grupo 5:** Carolina Aguirre (datos, código y repositorio) · Javier Albornoz (dashboard e informe).
+**Grupo 5:** Carolina Aguirre · Javier Albornoz.
 
 ## Estructura
 
