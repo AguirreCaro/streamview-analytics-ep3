@@ -1,0 +1,632 @@
+kpi_id,kpi,tipo_contenido,dimension,posicion,valor,unidad
+K01,Total de titulos,Todos,,,31991,titulos
+K02,Participacion en el catalogo,Todos,,,100.0,% del catalogo
+K03,Rating promedio (>=20 votos),Todos,,,6.62,escala 0-10
+K04,Popularidad promedio,Todos,,,42.63,indice relativo
+K05,Paises distintos,Todos,,,122,paises
+K06,Idiomas distintos,Todos,,,83,idiomas
+K07,Genero con mas titulos,Todos,,,Drama,genero
+K08,Genero con mejor rating promedio (entre los 10 mas frecuentes),Todos,,,Animation,genero
+K11,Top 10 generos por titulos,Todos,Drama,1,14769,titulos
+K11,Top 10 generos por titulos,Todos,Comedy,2,9105,titulos
+K11,Top 10 generos por titulos,Todos,Action,3,5227,titulos
+K11,Top 10 generos por titulos,Todos,Animation,4,4069,titulos
+K11,Top 10 generos por titulos,Todos,Thriller,5,3769,titulos
+K11,Top 10 generos por titulos,Todos,Adventure,6,3756,titulos
+K11,Top 10 generos por titulos,Todos,Family,7,3554,titulos
+K11,Top 10 generos por titulos,Todos,Science Fiction,8,3412,titulos
+K11,Top 10 generos por titulos,Todos,Fantasy,9,3408,titulos
+K11,Top 10 generos por titulos,Todos,Crime,10,3203,titulos
+K09,Pais con mas titulos,Todos,,,United States of America,pais
+K10,Idioma con mas titulos,Todos,,,en,idioma
+K12,Top 10 paises por titulos,Todos,United States of America,1,8180,titulos
+K12,Top 10 paises por titulos,Todos,Japan,2,2759,titulos
+K12,Top 10 paises por titulos,Todos,China,3,2283,titulos
+K12,Top 10 paises por titulos,Todos,South Korea,4,2070,titulos
+K12,Top 10 paises por titulos,Todos,United Kingdom,5,1712,titulos
+K12,Top 10 paises por titulos,Todos,Canada,6,1509,titulos
+K12,Top 10 paises por titulos,Todos,France,7,1353,titulos
+K12,Top 10 paises por titulos,Todos,India,8,856,titulos
+K12,Top 10 paises por titulos,Todos,Germany,9,790,titulos
+K12,Top 10 paises por titulos,Todos,Spain,10,575,titulos
+K13,Top 10 idiomas por titulos,Todos,en,1,13969,titulos
+K13,Top 10 idiomas por titulos,Todos,zh,2,2834,titulos
+K13,Top 10 idiomas por titulos,Todos,ja,3,2784,titulos
+K13,Top 10 idiomas por titulos,Todos,ko,4,2240,titulos
+K13,Top 10 idiomas por titulos,Todos,es,5,1646,titulos
+K13,Top 10 idiomas por titulos,Todos,fr,6,1639,titulos
+K13,Top 10 idiomas por titulos,Todos,de,7,730,titulos
+K13,Top 10 idiomas por titulos,Todos,hi,8,635,titulos
+K13,Top 10 idiomas por titulos,Todos,tl,9,525,titulos
+K13,Top 10 idiomas por titulos,Todos,pt,10,483,titulos
+K14,Top 10 titulos por popularidad,Todos,The Late Show with Stephen Colbert,1,6421.92,indice relativo
+K14,Top 10 titulos por popularidad,Todos,The Tonight Show Starring Jimmy Fallon,2,4925.25,indice relativo
+K14,Top 10 titulos por popularidad,Todos,The Gorge,3,3876.01,indice relativo
+K14,Top 10 titulos por popularidad,Todos,Good Mythical Morning,4,3414.47,indice relativo
+K14,Top 10 titulos por popularidad,Todos,Flight Risk,5,3320.62,indice relativo
+K14,Top 10 titulos por popularidad,Todos,Chronicles of the Sun,6,2987.48,indice relativo
+K14,Top 10 titulos por popularidad,Todos,Volta por Cima,7,2885.72,indice relativo
+K14,Top 10 titulos por popularidad,Todos,She's the One,8,2862.87,indice relativo
+K14,Top 10 titulos por popularidad,Todos,Mufasa: The Lion King,9,2643.63,indice relativo
+K14,Top 10 titulos por popularidad,Todos,Crazy About You,10,2442.24,indice relativo
+K15,Top 10 titulos por rating (>=20 votos),Todos,Nude,1,9.5,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Todos,Succubus,2,9.5,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Todos,Kill Shot,3,9.3,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Todos,Wizards Beyond Waverly Place,4,9.3,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Todos,All the Queen's Men,5,9.3,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Todos,The Territory,6,9.3,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Todos,Flow,7,9.3,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Todos,The Three-Body Problem in Minecraft,8,9.3,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Todos,When I Fly Towards You,9,9.23,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Todos,Selena + Chef,10,9.2,escala 0-10
+K16,Incorporaciones por anio,Todos,2010,,2000,titulos
+K16,Incorporaciones por anio,Todos,2011,,2000,titulos
+K16,Incorporaciones por anio,Todos,2012,,2000,titulos
+K16,Incorporaciones por anio,Todos,2013,,2000,titulos
+K16,Incorporaciones por anio,Todos,2014,,2000,titulos
+K16,Incorporaciones por anio,Todos,2015,,2000,titulos
+K16,Incorporaciones por anio,Todos,2016,,2000,titulos
+K16,Incorporaciones por anio,Todos,2017,,2000,titulos
+K16,Incorporaciones por anio,Todos,2018,,2000,titulos
+K16,Incorporaciones por anio,Todos,2019,,2000,titulos
+K16,Incorporaciones por anio,Todos,2020,,2000,titulos
+K16,Incorporaciones por anio,Todos,2021,,2000,titulos
+K16,Incorporaciones por anio,Todos,2022,,2000,titulos
+K16,Incorporaciones por anio,Todos,2023,,2000,titulos
+K16,Incorporaciones por anio,Todos,2024,,2000,titulos
+K16,Incorporaciones por anio,Todos,2025,,1991,titulos
+K24,Estrenos por anio,Todos,2010,,2000,titulos
+K24,Estrenos por anio,Todos,2011,,2000,titulos
+K24,Estrenos por anio,Todos,2012,,2000,titulos
+K24,Estrenos por anio,Todos,2013,,2000,titulos
+K24,Estrenos por anio,Todos,2014,,2000,titulos
+K24,Estrenos por anio,Todos,2015,,2000,titulos
+K24,Estrenos por anio,Todos,2016,,2000,titulos
+K24,Estrenos por anio,Todos,2017,,2000,titulos
+K24,Estrenos por anio,Todos,2018,,2000,titulos
+K24,Estrenos por anio,Todos,2019,,2000,titulos
+K24,Estrenos por anio,Todos,2020,,2000,titulos
+K24,Estrenos por anio,Todos,2021,,2000,titulos
+K24,Estrenos por anio,Todos,2022,,2000,titulos
+K24,Estrenos por anio,Todos,2023,,2000,titulos
+K24,Estrenos por anio,Todos,2024,,2000,titulos
+K24,Estrenos por anio,Todos,2025,,1991,titulos
+K17,Cantidad de generos,Todos,,,23,generos
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Todos,Soap,1,155.46,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Todos,Talk,2,130.61,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Todos,News,3,102.0,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Todos,Reality,4,79.33,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Todos,Family,5,56.45,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Todos,Adventure,6,52.37,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Todos,Science Fiction,7,49.87,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Todos,Fantasy,8,46.03,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Todos,Action,9,45.6,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Todos,Animation,10,45.55,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Todos,Brazil,1,86.54,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Todos,Colombia,2,75.75,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Todos,Chile,3,72.0,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Todos,Philippines,4,68.76,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Todos,Netherlands,5,67.9,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Todos,Mexico,6,66.02,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Todos,Czech Republic,7,55.02,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Todos,Turkey,8,53.84,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Todos,India,9,51.98,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Todos,Spain,10,47.17,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Todos,pt,1,104.31,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Todos,tl,2,69.64,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Todos,nl,3,61.37,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Todos,hi,4,60.34,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Todos,es,5,57.69,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Todos,tr,6,52.59,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Todos,ko,7,44.9,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Todos,de,8,44.39,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Todos,sv,9,41.11,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Todos,pl,10,39.88,indice relativo
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Todos,Soap,1,7.29,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Todos,Animation,2,7.24,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Todos,Documentary,3,7.21,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Todos,Music,4,6.99,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Todos,Fantasy,5,6.98,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Todos,Reality,6,6.94,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Todos,Adventure,7,6.87,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Todos,Family,8,6.86,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Todos,Drama,9,6.83,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Todos,War,10,6.83,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Todos,South Korea,1,7.33,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Todos,Japan,2,7.31,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Todos,Mexico,3,7.24,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Todos,Turkey,4,7.02,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Todos,Brazil,5,6.89,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Todos,China,6,6.85,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Todos,Argentina,7,6.79,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Todos,Denmark,8,6.68,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Todos,Russia,9,6.67,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Todos,India,10,6.6,escala 0-10
+K23,Top 10 titulos con mas votos,Todos,Inception,1,37119,votos
+K23,Top 10 titulos con mas votos,Todos,Interstellar,2,36625,votos
+K23,Top 10 titulos con mas votos,Todos,Deadpool,3,31371,votos
+K23,Top 10 titulos con mas votos,Todos,The Avengers,4,31285,votos
+K23,Top 10 titulos con mas votos,Todos,Avengers: Infinity War,5,30231,votos
+K23,Top 10 titulos con mas votos,Todos,Guardians of the Galaxy,6,28308,votos
+K23,Top 10 titulos con mas votos,Todos,Django Unchained,7,26532,votos
+K23,Top 10 titulos con mas votos,Todos,Joker,8,26169,votos
+K23,Top 10 titulos con mas votos,Todos,Avengers: Endgame,9,26065,votos
+K23,Top 10 titulos con mas votos,Todos,Game of Thrones,10,24664,votos
+K25,Top 10 directores por titulos,Todos,Don Michael Perez,1,21,titulos
+K25,Top 10 directores por titulos,Todos,Dominic Zapata,2,21,titulos
+K25,Top 10 directores por titulos,Todos,Tyler Perry,3,20,titulos
+K25,Top 10 directores por titulos,Todos,Sam Liu,4,18,titulos
+K25,Top 10 directores por titulos,Todos,Gil Tejada Jr.,5,17,titulos
+K25,Top 10 directores por titulos,Todos,Roel Reiné,6,15,titulos
+K25,Top 10 directores por titulos,Todos,Steven Soderbergh,7,15,titulos
+K25,Top 10 directores por titulos,Todos,Sean McNamara,8,15,titulos
+K25,Top 10 directores por titulos,Todos,Ricky Davao,9,15,titulos
+K25,Top 10 directores por titulos,Todos,Sion Sono,10,14,titulos
+K26,Top 10 actores por titulos,Todos,Min Do-yoon,1,111,titulos
+K26,Top 10 actores por titulos,Todos,Kana Hanazawa,2,97,titulos
+K26,Top 10 actores por titulos,Todos,Yuki Kaji,3,70,titulos
+K26,Top 10 actores por titulos,Todos,Grey DeLisle,4,65,titulos
+K26,Top 10 actores por titulos,Todos,Yuichi Nakamura,5,63,titulos
+K26,Top 10 actores por titulos,Todos,Takahiro Sakurai,6,63,titulos
+K26,Top 10 actores por titulos,Todos,Natsuki Hanae,7,63,titulos
+K26,Top 10 actores por titulos,Todos,Yoko Hikasa,8,62,titulos
+K26,Top 10 actores por titulos,Todos,Mamoru Miyano,9,59,titulos
+K26,Top 10 actores por titulos,Todos,Saori Hayami,10,59,titulos
+F01,Peliculas con datos financieros validos,Todos,,,3386,peliculas
+F02,Ingreso total (peliculas validas),Todos,,,366584862326,USD
+F03,Presupuesto total (peliculas validas),Todos,,,125908042768,USD
+F04,ROI mediano (ingresos / presupuesto),Todos,,,1.68,razon (x)
+F07,Presupuesto promedio (peliculas validas),Todos,,,37184892,USD
+F08,Top 10 peliculas por ingresos,Todos,Avengers: Endgame,1,2799439100,USD
+F08,Top 10 peliculas por ingresos,Todos,Avatar: The Way of Water,2,2320250281,USD
+F08,Top 10 peliculas por ingresos,Todos,Star Wars: The Force Awakens,3,2068223624,USD
+F08,Top 10 peliculas por ingresos,Todos,Avengers: Infinity War,4,2052415039,USD
+F08,Top 10 peliculas por ingresos,Todos,Ne Zha 2,5,1990000000,USD
+F08,Top 10 peliculas por ingresos,Todos,Spider-Man: No Way Home,6,1921847111,USD
+F08,Top 10 peliculas por ingresos,Todos,Inside Out 2,7,1698863816,USD
+F08,Top 10 peliculas por ingresos,Todos,Jurassic World,8,1671537444,USD
+F08,Top 10 peliculas por ingresos,Todos,The Lion King,9,1662020819,USD
+F08,Top 10 peliculas por ingresos,Todos,The Avengers,10,1518815515,USD
+F09,Top 10 peliculas por ROI,Todos,Dragon Ball Super: Broly,1,125.0,razon (x)
+F09,Top 10 peliculas por ROI,Todos,The Devil Inside,2,101.8,razon (x)
+F09,Top 10 peliculas por ROI,Todos,Lost in Thailand,3,94.55,razon (x)
+F09,Top 10 peliculas por ROI,Todos,Searching,4,75.46,razon (x)
+F09,Top 10 peliculas por ROI,Todos,Insidious,5,66.74,razon (x)
+F09,Top 10 peliculas por ROI,Todos,Unfriended,6,62.9,razon (x)
+F09,Top 10 peliculas por ROI,Todos,Paranormal Activity 2,7,59.17,razon (x)
+F09,Top 10 peliculas por ROI,Todos,Get Out,8,56.76,razon (x)
+F09,Top 10 peliculas por ROI,Todos,Tunnel,9,52.44,razon (x)
+F09,Top 10 peliculas por ROI,Todos,The Last Kumite,10,49.88,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Todos,Dragon Ball Super: Broly,1,125.0,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Todos,The Devil Inside,2,101.8,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Todos,Lost in Thailand,3,94.55,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Todos,Searching,4,75.46,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Todos,Insidious,5,66.74,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Todos,Unfriended,6,62.9,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Todos,Paranormal Activity 2,7,59.17,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Todos,Get Out,8,56.76,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Todos,Tunnel,9,52.44,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Todos,The Last Kumite,10,49.88,razon (x)
+F05,Genero con mejor ROI mediano,Todos,,,Animation,genero
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Animation,1,2.29,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Family,2,2.17,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Horror,3,2.13,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Adventure,4,2.02,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Comedy,5,2.02,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Science Fiction,6,1.93,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Music,7,1.88,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Fantasy,8,1.87,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Action,9,1.83,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Romance,10,1.7,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Mystery,11,1.59,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Thriller,12,1.34,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Crime,13,1.33,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Drama,14,1.23,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,War,15,1.21,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,History,16,1.14,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Todos,Western,17,0.59,razon (x)
+K01,Total de titulos,Movie,,,16000,titulos
+K02,Participacion en el catalogo,Movie,,,50.0,% del catalogo
+K03,Rating promedio (>=20 votos),Movie,,,6.36,escala 0-10
+K04,Popularidad promedio,Movie,,,20.38,indice relativo
+K05,Paises distintos,Movie,,,113,paises
+K06,Idiomas distintos,Movie,,,74,idiomas
+K07,Genero con mas titulos,Movie,,,Drama,genero
+K08,Genero con mejor rating promedio (entre los 10 mas frecuentes),Movie,,,Animation,genero
+K11,Top 10 generos por titulos,Movie,Drama,1,6910,titulos
+K11,Top 10 generos por titulos,Movie,Comedy,2,4533,titulos
+K11,Top 10 generos por titulos,Movie,Thriller,3,3769,titulos
+K11,Top 10 generos por titulos,Movie,Action,4,3239,titulos
+K11,Top 10 generos por titulos,Movie,Romance,5,2571,titulos
+K11,Top 10 generos por titulos,Movie,Horror,6,2425,titulos
+K11,Top 10 generos por titulos,Movie,Adventure,7,1768,titulos
+K11,Top 10 generos por titulos,Movie,Crime,8,1738,titulos
+K11,Top 10 generos por titulos,Movie,Animation,9,1579,titulos
+K11,Top 10 generos por titulos,Movie,Family,10,1472,titulos
+K09,Pais con mas titulos,Movie,,,United States of America,pais
+K10,Idioma con mas titulos,Movie,,,en,idioma
+K12,Top 10 paises por titulos,Movie,United States of America,1,5699,titulos
+K12,Top 10 paises por titulos,Movie,United Kingdom,2,1050,titulos
+K12,Top 10 paises por titulos,Movie,France,3,1030,titulos
+K12,Top 10 paises por titulos,Movie,Canada,4,932,titulos
+K12,Top 10 paises por titulos,Movie,Japan,5,914,titulos
+K12,Top 10 paises por titulos,Movie,South Korea,6,818,titulos
+K12,Top 10 paises por titulos,Movie,India,7,489,titulos
+K12,Top 10 paises por titulos,Movie,Belgium,8,460,titulos
+K12,Top 10 paises por titulos,Movie,China,9,415,titulos
+K12,Top 10 paises por titulos,Movie,Germany,10,379,titulos
+K13,Top 10 idiomas por titulos,Movie,en,1,9534,titulos
+K13,Top 10 idiomas por titulos,Movie,fr,2,1054,titulos
+K13,Top 10 idiomas por titulos,Movie,ja,3,904,titulos
+K13,Top 10 idiomas por titulos,Movie,ko,4,876,titulos
+K13,Top 10 idiomas por titulos,Movie,es,5,731,titulos
+K13,Top 10 idiomas por titulos,Movie,zh,6,378,titulos
+K13,Top 10 idiomas por titulos,Movie,it,7,312,titulos
+K13,Top 10 idiomas por titulos,Movie,hi,8,290,titulos
+K13,Top 10 idiomas por titulos,Movie,de,9,279,titulos
+K13,Top 10 idiomas por titulos,Movie,ru,10,190,titulos
+K14,Top 10 titulos por popularidad,Movie,The Gorge,1,3876.01,indice relativo
+K14,Top 10 titulos por popularidad,Movie,Flight Risk,2,3320.62,indice relativo
+K14,Top 10 titulos por popularidad,Movie,Mufasa: The Lion King,3,2643.63,indice relativo
+K14,Top 10 titulos por popularidad,Movie,Sonic the Hedgehog 3,4,2402.5,indice relativo
+K14,Top 10 titulos por popularidad,Movie,Moana 2,5,2347.01,indice relativo
+K14,Top 10 titulos por popularidad,Movie,Amaran,6,1780.29,indice relativo
+K14,Top 10 titulos por popularidad,Movie,Captain America: Brave New World,7,1495.72,indice relativo
+K14,Top 10 titulos por popularidad,Movie,Companion,8,1283.36,indice relativo
+K14,Top 10 titulos por popularidad,Movie,Panda Plan,9,1214.51,indice relativo
+K14,Top 10 titulos por popularidad,Movie,Kraven the Hunter,10,1195.88,indice relativo
+K15,Top 10 titulos por rating (>=20 votos),Movie,Nude,1,9.5,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Movie,Succubus,2,9.5,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Movie,Kill Shot,3,9.3,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Movie,Flow,4,9.3,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Movie,Break the Silence: The Movie,5,9.0,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Movie,The Three Deaths of Marisela Escobedo,6,8.9,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Movie,BTS: Permission to Dance on Stage - LA,7,8.9,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Movie,The Secret of Dr. Grinberg,8,8.9,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Movie,Selena Gomez: My Mind & Me,9,8.7,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),Movie,My First Client,10,8.7,escala 0-10
+K16,Incorporaciones por anio,Movie,2010,,1000,titulos
+K16,Incorporaciones por anio,Movie,2011,,1000,titulos
+K16,Incorporaciones por anio,Movie,2012,,1000,titulos
+K16,Incorporaciones por anio,Movie,2013,,1000,titulos
+K16,Incorporaciones por anio,Movie,2014,,1000,titulos
+K16,Incorporaciones por anio,Movie,2015,,1000,titulos
+K16,Incorporaciones por anio,Movie,2016,,1000,titulos
+K16,Incorporaciones por anio,Movie,2017,,1000,titulos
+K16,Incorporaciones por anio,Movie,2018,,1000,titulos
+K16,Incorporaciones por anio,Movie,2019,,1000,titulos
+K16,Incorporaciones por anio,Movie,2020,,1000,titulos
+K16,Incorporaciones por anio,Movie,2021,,1000,titulos
+K16,Incorporaciones por anio,Movie,2022,,1000,titulos
+K16,Incorporaciones por anio,Movie,2023,,1000,titulos
+K16,Incorporaciones por anio,Movie,2024,,1000,titulos
+K16,Incorporaciones por anio,Movie,2025,,1000,titulos
+K24,Estrenos por anio,Movie,2010,,1000,titulos
+K24,Estrenos por anio,Movie,2011,,1000,titulos
+K24,Estrenos por anio,Movie,2012,,1000,titulos
+K24,Estrenos por anio,Movie,2013,,1000,titulos
+K24,Estrenos por anio,Movie,2014,,1000,titulos
+K24,Estrenos por anio,Movie,2015,,1000,titulos
+K24,Estrenos por anio,Movie,2016,,1000,titulos
+K24,Estrenos por anio,Movie,2017,,1000,titulos
+K24,Estrenos por anio,Movie,2018,,1000,titulos
+K24,Estrenos por anio,Movie,2019,,1000,titulos
+K24,Estrenos por anio,Movie,2020,,1000,titulos
+K24,Estrenos por anio,Movie,2021,,1000,titulos
+K24,Estrenos por anio,Movie,2022,,1000,titulos
+K24,Estrenos por anio,Movie,2023,,1000,titulos
+K24,Estrenos por anio,Movie,2024,,1000,titulos
+K24,Estrenos por anio,Movie,2025,,1000,titulos
+K17,Cantidad de generos,Movie,,,19,generos
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Movie,Adventure,1,35.47,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Movie,Science Fiction,2,34.29,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Movie,Action,3,32.21,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Movie,Animation,4,28.61,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Movie,Family,5,28.36,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Movie,Fantasy,6,25.24,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Movie,Thriller,7,24.49,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Movie,War,8,22.3,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Movie,Crime,9,21.6,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),Movie,Horror,10,21.45,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Movie,United States of America,1,24.96,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Movie,Spain,2,23.64,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Movie,China,3,22.65,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Movie,Australia,4,21.19,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Movie,United Kingdom,5,20.77,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Movie,Mexico,6,19.77,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Movie,Canada,7,19.31,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Movie,Philippines,8,18.45,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Movie,India,9,18.42,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),Movie,Japan,10,18.37,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Movie,en,1,23.19,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Movie,zh,2,20.19,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Movie,es,3,19.01,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Movie,tl,4,18.63,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Movie,ja,5,16.8,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Movie,ko,6,16.54,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Movie,fr,7,14.55,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Movie,hi,8,13.89,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Movie,pt,9,13.58,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),Movie,ru,10,13.34,indice relativo
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Movie,Documentary,1,7.15,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Movie,Music,2,6.99,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Movie,Animation,3,6.97,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Movie,History,4,6.78,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Movie,Family,5,6.68,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Movie,War,6,6.64,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Movie,Drama,7,6.54,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Movie,Fantasy,8,6.52,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Movie,Romance,9,6.48,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),Movie,Adventure,10,6.48,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Movie,South Korea,1,6.96,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Movie,Mexico,2,6.96,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Movie,Japan,3,6.95,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Movie,Brazil,4,6.77,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Movie,Denmark,5,6.64,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Movie,India,6,6.56,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Movie,China,7,6.55,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Movie,Belgium,8,6.42,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Movie,Germany,9,6.4,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),Movie,Russia,10,6.39,escala 0-10
+K23,Top 10 titulos con mas votos,Movie,Inception,1,37119,votos
+K23,Top 10 titulos con mas votos,Movie,Interstellar,2,36625,votos
+K23,Top 10 titulos con mas votos,Movie,Deadpool,3,31371,votos
+K23,Top 10 titulos con mas votos,Movie,The Avengers,4,31285,votos
+K23,Top 10 titulos con mas votos,Movie,Avengers: Infinity War,5,30231,votos
+K23,Top 10 titulos con mas votos,Movie,Guardians of the Galaxy,6,28308,votos
+K23,Top 10 titulos con mas votos,Movie,Django Unchained,7,26532,votos
+K23,Top 10 titulos con mas votos,Movie,Joker,8,26169,votos
+K23,Top 10 titulos con mas votos,Movie,Avengers: Endgame,9,26065,votos
+K23,Top 10 titulos con mas votos,Movie,The Wolf of Wall Street,10,24358,votos
+K25,Top 10 directores por titulos,Movie,Tyler Perry,1,20,titulos
+K25,Top 10 directores por titulos,Movie,Sam Liu,2,18,titulos
+K25,Top 10 directores por titulos,Movie,Roel Reiné,3,15,titulos
+K25,Top 10 directores por titulos,Movie,Steven Soderbergh,4,15,titulos
+K25,Top 10 directores por titulos,Movie,Sean McNamara,5,15,titulos
+K25,Top 10 directores por titulos,Movie,Choi Woo-seong,6,14,titulos
+K25,Top 10 directores por titulos,Movie,Ernie Barbarash,7,13,titulos
+K25,Top 10 directores por titulos,Movie,Jesse V. Johnson,8,13,titulos
+K25,Top 10 directores por titulos,Movie,Peter Sullivan,9,13,titulos
+K25,Top 10 directores por titulos,Movie,Don Michael Paul,10,13,titulos
+K26,Top 10 actores por titulos,Movie,Min Do-yoon,1,111,titulos
+K26,Top 10 actores por titulos,Movie,Lee Chae-dam,2,53,titulos
+K26,Top 10 actores por titulos,Movie,Nicolas Cage,3,52,titulos
+K26,Top 10 actores por titulos,Movie,Bruce Willis,4,52,titulos
+K26,Top 10 actores por titulos,Movie,Grey DeLisle,5,48,titulos
+K26,Top 10 actores por titulos,Movie,Samuel L. Jackson,6,43,titulos
+K26,Top 10 actores por titulos,Movie,Kang Min-woo,7,42,titulos
+K26,Top 10 actores por titulos,Movie,Sang Woo,8,41,titulos
+K26,Top 10 actores por titulos,Movie,Frank Grillo,9,39,titulos
+K26,Top 10 actores por titulos,Movie,Antonio Banderas,10,38,titulos
+F01,Peliculas con datos financieros validos,Movie,,,3386,peliculas
+F02,Ingreso total (peliculas validas),Movie,,,366584862326,USD
+F03,Presupuesto total (peliculas validas),Movie,,,125908042768,USD
+F04,ROI mediano (ingresos / presupuesto),Movie,,,1.68,razon (x)
+F07,Presupuesto promedio (peliculas validas),Movie,,,37184892,USD
+F08,Top 10 peliculas por ingresos,Movie,Avengers: Endgame,1,2799439100,USD
+F08,Top 10 peliculas por ingresos,Movie,Avatar: The Way of Water,2,2320250281,USD
+F08,Top 10 peliculas por ingresos,Movie,Star Wars: The Force Awakens,3,2068223624,USD
+F08,Top 10 peliculas por ingresos,Movie,Avengers: Infinity War,4,2052415039,USD
+F08,Top 10 peliculas por ingresos,Movie,Ne Zha 2,5,1990000000,USD
+F08,Top 10 peliculas por ingresos,Movie,Spider-Man: No Way Home,6,1921847111,USD
+F08,Top 10 peliculas por ingresos,Movie,Inside Out 2,7,1698863816,USD
+F08,Top 10 peliculas por ingresos,Movie,Jurassic World,8,1671537444,USD
+F08,Top 10 peliculas por ingresos,Movie,The Lion King,9,1662020819,USD
+F08,Top 10 peliculas por ingresos,Movie,The Avengers,10,1518815515,USD
+F09,Top 10 peliculas por ROI,Movie,Dragon Ball Super: Broly,1,125.0,razon (x)
+F09,Top 10 peliculas por ROI,Movie,The Devil Inside,2,101.8,razon (x)
+F09,Top 10 peliculas por ROI,Movie,Lost in Thailand,3,94.55,razon (x)
+F09,Top 10 peliculas por ROI,Movie,Searching,4,75.46,razon (x)
+F09,Top 10 peliculas por ROI,Movie,Insidious,5,66.74,razon (x)
+F09,Top 10 peliculas por ROI,Movie,Unfriended,6,62.9,razon (x)
+F09,Top 10 peliculas por ROI,Movie,Paranormal Activity 2,7,59.17,razon (x)
+F09,Top 10 peliculas por ROI,Movie,Get Out,8,56.76,razon (x)
+F09,Top 10 peliculas por ROI,Movie,Tunnel,9,52.44,razon (x)
+F09,Top 10 peliculas por ROI,Movie,The Last Kumite,10,49.88,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Movie,Dragon Ball Super: Broly,1,125.0,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Movie,The Devil Inside,2,101.8,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Movie,Lost in Thailand,3,94.55,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Movie,Searching,4,75.46,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Movie,Insidious,5,66.74,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Movie,Unfriended,6,62.9,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Movie,Paranormal Activity 2,7,59.17,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Movie,Get Out,8,56.76,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Movie,Tunnel,9,52.44,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,Movie,The Last Kumite,10,49.88,razon (x)
+F05,Genero con mejor ROI mediano,Movie,,,Animation,genero
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Animation,1,2.29,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Family,2,2.17,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Horror,3,2.13,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Adventure,4,2.02,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Comedy,5,2.02,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Science Fiction,6,1.93,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Music,7,1.88,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Fantasy,8,1.87,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Action,9,1.83,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Romance,10,1.7,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Mystery,11,1.59,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Thriller,12,1.34,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Crime,13,1.33,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Drama,14,1.23,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,War,15,1.21,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,History,16,1.14,razon (x)
+F06,ROI mediano por genero (>=30 peliculas validas),Movie,Western,17,0.59,razon (x)
+K01,Total de titulos,TV Show,,,15991,titulos
+K02,Participacion en el catalogo,TV Show,,,50.0,% del catalogo
+K03,Rating promedio (>=20 votos),TV Show,,,7.39,escala 0-10
+K04,Popularidad promedio,TV Show,,,64.88,indice relativo
+K05,Paises distintos,TV Show,,,91,paises
+K06,Idiomas distintos,TV Show,,,71,idiomas
+K07,Genero con mas titulos,TV Show,,,Drama,genero
+K08,Genero con mejor rating promedio (entre los 10 mas frecuentes),TV Show,,,Animation,genero
+K11,Top 10 generos por titulos,TV Show,Drama,1,7859,titulos
+K11,Top 10 generos por titulos,TV Show,Comedy,2,4572,titulos
+K11,Top 10 generos por titulos,TV Show,Animation,3,2490,titulos
+K11,Top 10 generos por titulos,TV Show,Family,4,2082,titulos
+K11,Top 10 generos por titulos,TV Show,Action,5,1988,titulos
+K11,Top 10 generos por titulos,TV Show,Adventure,6,1988,titulos
+K11,Top 10 generos por titulos,TV Show,Science Fiction,7,1958,titulos
+K11,Top 10 generos por titulos,TV Show,Fantasy,8,1958,titulos
+K11,Top 10 generos por titulos,TV Show,Reality,9,1630,titulos
+K11,Top 10 generos por titulos,TV Show,Crime,10,1465,titulos
+K09,Pais con mas titulos,TV Show,,,United States of America,pais
+K10,Idioma con mas titulos,TV Show,,,en,idioma
+K12,Top 10 paises por titulos,TV Show,United States of America,1,2481,titulos
+K12,Top 10 paises por titulos,TV Show,China,2,1868,titulos
+K12,Top 10 paises por titulos,TV Show,Japan,3,1845,titulos
+K12,Top 10 paises por titulos,TV Show,South Korea,4,1252,titulos
+K12,Top 10 paises por titulos,TV Show,United Kingdom,5,662,titulos
+K12,Top 10 paises por titulos,TV Show,Canada,6,577,titulos
+K12,Top 10 paises por titulos,TV Show,Germany,7,411,titulos
+K12,Top 10 paises por titulos,TV Show,Philippines,8,395,titulos
+K12,Top 10 paises por titulos,TV Show,India,9,367,titulos
+K12,Top 10 paises por titulos,TV Show,France,10,323,titulos
+K13,Top 10 idiomas por titulos,TV Show,en,1,4435,titulos
+K13,Top 10 idiomas por titulos,TV Show,zh,2,2456,titulos
+K13,Top 10 idiomas por titulos,TV Show,ja,3,1880,titulos
+K13,Top 10 idiomas por titulos,TV Show,ko,4,1364,titulos
+K13,Top 10 idiomas por titulos,TV Show,es,5,915,titulos
+K13,Top 10 idiomas por titulos,TV Show,fr,6,585,titulos
+K13,Top 10 idiomas por titulos,TV Show,de,7,451,titulos
+K13,Top 10 idiomas por titulos,TV Show,tl,8,398,titulos
+K13,Top 10 idiomas por titulos,TV Show,pt,9,346,titulos
+K13,Top 10 idiomas por titulos,TV Show,hi,10,345,titulos
+K14,Top 10 titulos por popularidad,TV Show,The Late Show with Stephen Colbert,1,6421.92,indice relativo
+K14,Top 10 titulos por popularidad,TV Show,The Tonight Show Starring Jimmy Fallon,2,4925.25,indice relativo
+K14,Top 10 titulos por popularidad,TV Show,Good Mythical Morning,3,3414.47,indice relativo
+K14,Top 10 titulos por popularidad,TV Show,Chronicles of the Sun,4,2987.48,indice relativo
+K14,Top 10 titulos por popularidad,TV Show,Volta por Cima,5,2885.72,indice relativo
+K14,Top 10 titulos por popularidad,TV Show,She's the One,6,2862.87,indice relativo
+K14,Top 10 titulos por popularidad,TV Show,Crazy About You,7,2442.24,indice relativo
+K14,Top 10 titulos por popularidad,TV Show,La Casa de los Famosos Colombia,8,2398.16,indice relativo
+K14,Top 10 titulos por popularidad,TV Show,Late Night with Seth Meyers,9,2395.02,indice relativo
+K14,Top 10 titulos por popularidad,TV Show,GH dúo,10,2379.88,indice relativo
+K15,Top 10 titulos por rating (>=20 votos),TV Show,Wizards Beyond Waverly Place,1,9.3,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),TV Show,All the Queen's Men,2,9.3,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),TV Show,The Territory,3,9.3,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),TV Show,The Three-Body Problem in Minecraft,4,9.3,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),TV Show,When I Fly Towards You,5,9.23,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),TV Show,Selena + Chef,6,9.2,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),TV Show,Difficult Teens,7,9.2,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),TV Show,Tyler Perry's Zatima,8,9.2,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),TV Show,Omar,9,9.2,escala 0-10
+K15,Top 10 titulos por rating (>=20 votos),TV Show,Love in the Big City,10,9.2,escala 0-10
+K16,Incorporaciones por anio,TV Show,2010,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2011,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2012,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2013,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2014,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2015,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2016,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2017,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2018,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2019,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2020,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2021,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2022,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2023,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2024,,1000,titulos
+K16,Incorporaciones por anio,TV Show,2025,,991,titulos
+K24,Estrenos por anio,TV Show,2010,,1000,titulos
+K24,Estrenos por anio,TV Show,2011,,1000,titulos
+K24,Estrenos por anio,TV Show,2012,,1000,titulos
+K24,Estrenos por anio,TV Show,2013,,1000,titulos
+K24,Estrenos por anio,TV Show,2014,,1000,titulos
+K24,Estrenos por anio,TV Show,2015,,1000,titulos
+K24,Estrenos por anio,TV Show,2016,,1000,titulos
+K24,Estrenos por anio,TV Show,2017,,1000,titulos
+K24,Estrenos por anio,TV Show,2018,,1000,titulos
+K24,Estrenos por anio,TV Show,2019,,1000,titulos
+K24,Estrenos por anio,TV Show,2020,,1000,titulos
+K24,Estrenos por anio,TV Show,2021,,1000,titulos
+K24,Estrenos por anio,TV Show,2022,,1000,titulos
+K24,Estrenos por anio,TV Show,2023,,1000,titulos
+K24,Estrenos por anio,TV Show,2024,,1000,titulos
+K24,Estrenos por anio,TV Show,2025,,991,titulos
+K17,Cantidad de generos,TV Show,,,17,generos
+K18,Top 10 generos por popularidad promedio (>=100 titulos),TV Show,Soap,1,155.46,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),TV Show,Talk,2,130.61,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),TV Show,News,3,102.0,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),TV Show,Reality,4,79.33,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),TV Show,Family,5,76.31,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),TV Show,Action,6,67.4,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),TV Show,Adventure,7,67.4,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),TV Show,Comedy,8,66.38,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),TV Show,Drama,9,64.17,indice relativo
+K18,Top 10 generos por popularidad promedio (>=100 titulos),TV Show,Crime,10,63.18,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),TV Show,Brazil,1,131.94,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),TV Show,Mexico,2,98.88,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),TV Show,Netherlands,3,97.78,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),TV Show,India,4,96.71,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),TV Show,Chile,5,96.28,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),TV Show,France,6,91.42,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),TV Show,United States of America,7,86.07,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),TV Show,Philippines,8,85.32,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),TV Show,Spain,9,82.45,indice relativo
+K19,Top 10 paises por popularidad promedio (>=100 titulos),TV Show,Canada,10,73.33,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),TV Show,pt,1,140.24,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),TV Show,hi,2,99.37,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),TV Show,es,3,88.58,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),TV Show,tl,4,85.91,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),TV Show,fr,5,83.17,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),TV Show,nl,6,76.31,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),TV Show,en,7,72.49,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),TV Show,de,8,64.43,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),TV Show,ko,9,63.12,indice relativo
+K20,Top 10 idiomas por popularidad promedio (>=100 titulos),TV Show,tr,10,61.52,indice relativo
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),TV Show,Animation,1,7.55,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),TV Show,Fantasy,2,7.5,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),TV Show,Science Fiction,3,7.5,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),TV Show,Documentary,4,7.5,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),TV Show,Adventure,5,7.48,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),TV Show,Action,6,7.48,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),TV Show,War,7,7.43,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),TV Show,Drama,8,7.43,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),TV Show,Family,9,7.42,escala 0-10
+K21,Top 10 generos por rating promedio (>=100 titulos con >=20 votos),TV Show,Mystery,10,7.41,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),TV Show,China,1,7.83,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),TV Show,South Korea,2,7.7,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),TV Show,Japan,3,7.59,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),TV Show,Mexico,4,7.53,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),TV Show,United Kingdom,5,7.25,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),TV Show,United States of America,6,7.25,escala 0-10
+K22,Top 10 paises por rating promedio (>=100 titulos con >=20 votos),TV Show,Canada,7,7.23,escala 0-10
+K23,Top 10 titulos con mas votos,TV Show,Game of Thrones,1,24664,votos
+K23,Top 10 titulos con mas votos,TV Show,Money Heist,2,18791,votos
+K23,Top 10 titulos con mas votos,TV Show,Stranger Things,3,18075,votos
+K23,Top 10 titulos con mas votos,TV Show,The Walking Dead,4,16790,votos
+K23,Top 10 titulos con mas votos,TV Show,Squid Game,5,15536,votos
+K23,Top 10 titulos con mas votos,TV Show,Lucifer,6,14889,votos
+K23,Top 10 titulos con mas votos,TV Show,Riverdale,7,13505,votos
+K23,Top 10 titulos con mas votos,TV Show,The Good Doctor,8,12498,votos
+K23,Top 10 titulos con mas votos,TV Show,WandaVision,9,12125,votos
+K23,Top 10 titulos con mas votos,TV Show,Loki,10,11751,votos
+K25,Top 10 directores por titulos,TV Show,Don Michael Perez,1,21,titulos
+K25,Top 10 directores por titulos,TV Show,Dominic Zapata,2,21,titulos
+K25,Top 10 directores por titulos,TV Show,Gil Tejada Jr.,3,17,titulos
+K25,Top 10 directores por titulos,TV Show,Ricky Davao,4,15,titulos
+K25,Top 10 directores por titulos,TV Show,Yu Zhong Zhong,5,14,titulos
+K25,Top 10 directores por titulos,TV Show,Darnel Joy Villaflor,6,13,titulos
+K25,Top 10 directores por titulos,TV Show,Mark A. Reyes,7,13,titulos
+K25,Top 10 directores por titulos,TV Show,Nah Yung-suk,8,13,titulos
+K25,Top 10 directores por titulos,TV Show,Andoy Ranay,9,12,titulos
+K25,Top 10 directores por titulos,TV Show,Gina Alajar,10,12,titulos
+K26,Top 10 actores por titulos,TV Show,Kana Hanazawa,1,72,titulos
+K26,Top 10 actores por titulos,TV Show,Ai Kayano,2,51,titulos
+K26,Top 10 actores por titulos,TV Show,Yoko Hikasa,3,48,titulos
+K26,Top 10 actores por titulos,TV Show,Yuichi Nakamura,4,47,titulos
+K26,Top 10 actores por titulos,TV Show,Natsuki Hanae,5,45,titulos
+K26,Top 10 actores por titulos,TV Show,Saori Hayami,6,43,titulos
+K26,Top 10 actores por titulos,TV Show,Takahiro Sakurai,7,43,titulos
+K26,Top 10 actores por titulos,TV Show,Yuki Kaji,8,43,titulos
+K26,Top 10 actores por titulos,TV Show,Haruka Tomatsu,9,42,titulos
+K26,Top 10 actores por titulos,TV Show,Tomokazu Sugita,10,40,titulos
+F01,Peliculas con datos financieros validos,TV Show,,,No aplica,peliculas
+F02,Ingreso total (peliculas validas),TV Show,,,No aplica,USD
+F03,Presupuesto total (peliculas validas),TV Show,,,No aplica,USD
+F04,ROI mediano (ingresos / presupuesto),TV Show,,,No aplica,razon (x)
+F05,Genero con mejor ROI mediano,TV Show,,,No aplica,genero
+F07,Presupuesto promedio (peliculas validas),TV Show,,,No aplica,USD
+F08,Top 10 peliculas por ingresos,TV Show,,,No aplica,USD
+F09,Top 10 peliculas por ROI,TV Show,,,No aplica,razon (x)
+F10,Top 10 peliculas por ROI con presupuesto reducido,TV Show,,,No aplica,razon (x)

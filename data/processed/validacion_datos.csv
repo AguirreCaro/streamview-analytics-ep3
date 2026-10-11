@@ -1,0 +1,47 @@
+seccion,metrica,valor,detalle
+1_filas_por_paso,Peliculas (fuente 1),16000,netflix_movies_detailed_up_to_2025.csv
+1_filas_por_paso,Series (fuente 2),16000,netflix_tv_shows_detailed_up_to_2025.csv
+1_filas_por_paso,Union de ambas fuentes,32000,concat con columnas comunes
+1_filas_por_paso,Duplicados eliminados,9,mismo show_id + titulo + tipo
+1_filas_por_paso,Dataset limpio (una fila por titulo),31991,streamview_content_clean.csv
+1_filas_por_paso,Filas de la tabla puente titulo-genero,70521,genero_puente.csv (un titulo puede tener varios generos)
+2_nulos_por_columna_%,show_id,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,type,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,title,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,director,34.7,% de filas con valor nulo
+2_nulos_por_columna_%,cast,4.3,% de filas con valor nulo
+2_nulos_por_columna_%,country,7.1,% de filas con valor nulo
+2_nulos_por_columna_%,date_added,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,release_year,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,rating,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,genres,3.4,% de filas con valor nulo
+2_nulos_por_columna_%,language,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,description,10.4,% de filas con valor nulo
+2_nulos_por_columna_%,popularity,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,vote_count,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,vote_average,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,budget,50.0,% de filas con valor nulo
+2_nulos_por_columna_%,revenue,50.0,% de filas con valor nulo
+2_nulos_por_columna_%,seasons,50.0,% de filas con valor nulo
+2_nulos_por_columna_%,duration_min,100.0,% de filas con valor nulo
+2_nulos_por_columna_%,year_added,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,decade,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,content_id,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,main_genre,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,main_country,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,financiero_valido,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,roi,89.4,% de filas con valor nulo
+2_nulos_por_columna_%,rating_confiable,0.0,% de filas con valor nulo
+3_decisiones,Titulos sin genero informado (Movie),107,"genres vacio en la fuente: se mantienen en conteos de catalogo, se excluyen de rankings por genero"
+3_decisiones,Titulos sin genero informado (TV Show),974,"genres vacio en la fuente: se mantienen en conteos de catalogo, se excluyen de rankings por genero"
+3_decisiones,Titulos sin pais informado,2261,se mantienen en el catalogo; se excluyen del ranking de paises
+3_decisiones,Titulos con rating confiable (>=20 votos),18371,solo ellos entran al rating promedio
+3_decisiones,Peliculas con financieros validos,3386,presupuesto >= 1.000.000 USD e ingresos > 0. de 16.000 peliculas
+3_decisiones,Peliculas con presupuesto/ingresos > 0 pero bajo el umbral,154,se descartan del analisis financiero
+4_unidades,budget / revenue,USD,
+4_unidades,vote_average / rating,escala 0-10 (promedio de votos TMDB; no es clasificacion etaria),
+4_unidades,vote_count,numero de votos,
+4_unidades,popularity,indice relativo TMDB (sin unidad),
+4_unidades,roi,"razon ingresos / presupuesto (sin unidad; 1,0 = recupera lo invertido)",
+4_unidades,release_year / year_added,anio calendario,
+4_unidades,seasons,numero de temporadas (solo series),

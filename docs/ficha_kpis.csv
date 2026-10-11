@@ -1,0 +1,37 @@
+﻿kpi_id,kpi,formula,filtro,unidad,aplica_a,decision_que_apoya
+K01,Total de títulos,Conteo de filas del dataset limpio,Ninguno (31.991 títulos),títulos,Todos,Dimensionar el catálogo y su mezcla antes de decidir adquisición o producción
+K02,Participación en el catálogo,títulos del tipo / total de títulos × 100,Ninguno,% del catálogo,Todos,Ver si el catálogo está balanceado entre películas y series
+K03,Rating promedio,Promedio de vote_average,Solo títulos con vote_count ≥ 20 (18.371),escala 0-10,Todos,Comparar calidad percibida entre tipos y priorizar contenido mejor evaluado
+K04,Popularidad promedio,Promedio de popularity,Ninguno,índice relativo,Todos,Estimar el interés relativo del público (no es una cantidad de vistas)
+K05,Países distintos,Conteo de países principales distintos,Excluye «Sin pais informado»,países,Todos,Medir la diversidad geográfica de la oferta
+K06,Idiomas distintos,Conteo de idiomas distintos,Excluye nulos,idiomas,Todos,Medir la diversidad de idiomas de la oferta
+K07,Género con más títulos,Género con mayor conteo en la tabla puente,Excluye «Sin genero informado»; un título cuenta en cada uno de sus géneros,género,Todos,Identificar dónde se concentra el catálogo
+K08,Género con mejor rating promedio,Género con mayor promedio de vote_average,Solo los 10 géneros más frecuentes; vote_count ≥ 20; tabla puente,género,Todos,Detectar géneros de calidad que no son los de mayor volumen
+K09,País con más títulos,País principal con mayor conteo,Excluye «Sin pais informado»,país,Todos,Identificar el origen principal del contenido
+K10,Idioma con más títulos,Idioma con mayor conteo,Excluye nulos,idioma,Todos,Identificar el idioma principal del contenido
+K11,Top 10 géneros por títulos,"Conteo de títulos por género, 10 mayores",Tabla puente; excluye «Sin genero informado»,títulos,Todos,Priorizar adquisición o producción por concentración del catálogo
+K12,Top 10 países por títulos,"Conteo de títulos por país principal, 10 mayores",Excluye «Sin pais informado»,títulos,Todos,Priorizar mercados proveedores de contenido
+K13,Top 10 idiomas por títulos,"Conteo de títulos por idioma, 10 mayores",Excluye nulos,títulos,Todos,Priorizar idiomas para doblaje o subtitulado
+K14,Top 10 títulos por popularidad,10 títulos con mayor popularity,Ninguno,índice relativo,Todos,Elegir títulos a promocionar
+K15,Top 10 títulos por rating,10 títulos con mayor vote_average (desempate por vote_count),vote_count ≥ 20,escala 0-10,Todos,Elegir títulos de calidad comprobada para destacar
+K16,Incorporaciones por año,Conteo de títulos por year_added (año de date_added),Ninguno,títulos,Todos,Ver el ritmo de incorporación de contenido al catálogo
+K17,Cantidad de géneros,Conteo de géneros distintos de la tabla puente,Excluye «Sin genero informado»,géneros,Todos,Medir la diversidad temática del catálogo
+K18,Top 10 géneros por popularidad promedio,"Promedio de popularity por género, 10 mayores",Géneros con ≥ 100 títulos; tabla puente,índice relativo,Todos,Identificar qué géneros concentran el mayor interés (marketing y adquisición)
+K19,Top 10 países por popularidad promedio,"Promedio de popularity por país principal, 10 mayores",Países con ≥ 100 títulos; excluye «Sin pais informado»,índice relativo,Todos,Identificar mercados con contenido de mayor interés
+K20,Top 10 idiomas por popularidad promedio,"Promedio de popularity por idioma, 10 mayores",Idiomas con ≥ 100 títulos,índice relativo,Todos,Orientar idiomas a promocionar o adquirir
+K21,Top 10 géneros por rating promedio,"Promedio de vote_average por género, 10 mayores",Géneros con ≥ 100 títulos con vote_count ≥ 20; tabla puente,escala 0-10,Todos,Detectar géneros de calidad comprobada
+K22,Top 10 países por rating promedio,"Promedio de vote_average por país principal, 10 mayores",Países con ≥ 100 títulos con vote_count ≥ 20,escala 0-10,Todos,Identificar países con mejores valoraciones para futuras adquisiciones
+K23,Top 10 títulos con más votos,10 títulos con mayor vote_count,Ninguno,votos,Todos,Reconocer los títulos con mayor participación del público
+K24,Estrenos por año,Conteo de títulos por release_year,Ninguno,títulos,Todos,Analizar la evolución del catálogo por año de estreno
+K25,Top 10 directores por títulos,Conteo de títulos por director (el campo trae listas separadas por coma),"Excluye nulos (34,7 % del campo)",títulos,Todos,Identificar directores con mayor presencia en el catálogo
+K26,Top 10 actores por títulos,Conteo de títulos por actor (el campo cast trae listas separadas por coma),"Excluye nulos (4,3 % del campo)",títulos,Todos,Identificar actores con mayor presencia en el catálogo
+F01,Películas con datos financieros válidos,Conteo de películas con financiero_valido,budget ≥ 1.000.000 USD y revenue > 0 (3.386),películas,Película,Saber qué parte del catálogo permite análisis financiero (21 % de las películas)
+F02,Ingreso total,Suma de revenue,financiero_valido,USD,Película,Dimensionar el ingreso del subconjunto con datos
+F03,Presupuesto total,Suma de budget,financiero_valido,USD,Película,Dimensionar la inversión del subconjunto con datos
+F04,ROI mediano,Mediana de (revenue / budget) por película,financiero_valido,"razón (x); 1,0 = recupera lo invertido",Película,Evaluar el retorno típico de una película; la mediana evita que los extremos dominen
+F05,Género con mejor ROI mediano,Género con mayor mediana de ROI,financiero_valido; géneros con ≥ 30 películas válidas; tabla puente,género,Película,Orientar la inversión hacia géneros con mejor retorno relativo
+F06,ROI mediano por género,Mediana de ROI por género,financiero_valido; géneros con ≥ 30 películas válidas; tabla puente,razón (x),Película,Comparar el retorno entre géneros y decidir reasignación de presupuesto
+F07,Presupuesto promedio,Promedio de budget,financiero_valido,USD,Película,Conocer la inversión típica por película
+F08,Top 10 películas por ingresos,10 películas con mayor revenue,financiero_valido,USD,Película,Identificar los mayores éxitos de taquilla del catálogo
+F09,Top 10 películas por ROI,10 películas con mayor revenue / budget,financiero_valido,razón (x),Película,Identificar las películas con mayor retorno relativo
+F10,Top 10 películas por ROI con presupuesto reducido,10 películas con mayor ROI entre las de presupuesto ≤ mediana del presupuesto,financiero_valido; budget ≤ mediana de las películas válidas,razón (x),Película,Identificar películas exitosas con presupuestos reducidos

@@ -1,0 +1,9 @@
+# Los CSV de data/raw son los archivos oficiales: no se les cambian los saltos de línea
+*.csv -text
+
+# Archivos binarios
+*.pbix binary
+*.png binary
+*.pdf binary
+*.docx binary
+*.pptx binary
