@@ -1,0 +1,131 @@
+// StreamView Analytics - EP5 - Medidas DAX del dashboard
+//
+// Se escriben con los nombres que quedan DESPUÉS de renombrar el modelo (guía, paso 2):
+//   tablas: contenido (antes «streamview_powerbi (1)») y genero_puente
+//   columnas: las de data/processed/streamview_powerbi.csv y genero_puente.csv
+// Cada medida tiene su cifra de control en dashboard/cifras_de_control.csv (python src/cifras_control.py).
+//
+// Cómo usarlas: en la vista de datos, selecciona la medida existente (ver mapa_nombres.csv), pega la expresión
+// y cambia el nombre. Las medidas nuevas se crean con «Nueva medida». Después de cada medida, define el formato
+// indicado en el comentario (pestaña «Herramientas de medida»).
+//
+// Antes de empezar, en la vista de modelo comprueba la relación genero_puente[content_id] -> contenido[id_contenido]:
+// la dirección del filtro cruzado debe ser «Ambas», porque los gráficos por género dependen de ella.
+// (Los gráficos actuales ya funcionan así; no la cambies.)
+
+
+// ---------- Indicadores base ----------
+
+// Formato: número entero, separador de miles
+Total de títulos =
+COUNTROWS ( contenido )
+
+// Formato: número entero, separador de miles
+Títulos con rating confiable =
+CALCULATE ( COUNTROWS ( contenido ), contenido[rating_confiable] = TRUE () )
+
+// Formato: decimal, 2 posiciones. Solo títulos con >= 20 votos (rating_confiable).
+Rating promedio (0-10) =
+CALCULATE ( AVERAGE ( contenido[rating] ), contenido[rating_confiable] = TRUE () )
+
+// Formato: decimal, 2 posiciones. Índice relativo de TMDB, no es una cantidad de reproducciones.
+Popularidad promedio (índice) =
+AVERAGE ( contenido[popularidad] )
+
+// Formato: número entero. Películas con presupuesto >= 1 M USD e ingresos > 0.
+Películas con datos financieros =
+CALCULATE ( COUNTROWS ( contenido ), contenido[financiero_valido] = TRUE () )
+
+// Formato: decimal, 2 posiciones, con sufijo « x» (formato personalizado: 0.00" x"). Queda en blanco para series.
+ROI mediano (x) =
+CALCULATE ( MEDIAN ( contenido[roi] ), contenido[financiero_valido] = TRUE () )
+
+// Formato: número entero, separador de miles. 125.908 = USD 125.908 millones.
+Presupuesto total (USD millones) =
+DIVIDE (
+    CALCULATE ( SUM ( contenido[presupuesto_usd] ), contenido[financiero_valido] = TRUE () ),
+    1000000
+)
+
+// Formato: número entero, separador de miles.
+Ingreso total (USD millones) =
+DIVIDE (
+    CALCULATE ( SUM ( contenido[ingresos_usd] ), contenido[financiero_valido] = TRUE () ),
+    1000000
+)
+
+
+// ---------- Referencias para líneas y colores (ignoran el filtro de género y mantienen los demás) ----------
+
+Rating promedio de referencia =
+CALCULATE ( [Rating promedio (0-10)], ALL ( genero_puente ) )
+
+ROI mediano de referencia =
+CALCULATE ( [ROI mediano (x)], ALL ( genero_puente ) )
+
+// Para «Formato condicional > Color de relleno > Valor de campo». Rojo: sobre la referencia; gris oscuro: bajo ella.
+// Ambos colores superan el contraste mínimo de 3:1 sobre blanco.
+Color rating por género =
+IF ( [Rating promedio (0-10)] >= [Rating promedio de referencia], "#E50914", "#595959" )
+
+Color ROI por género =
+IF ( [ROI mediano (x)] >= [ROI mediano de referencia], "#E50914", "#595959" )
+
+
+// ---------- Subtítulos dinámicos (muestran período y n según los filtros) ----------
+// Se usan en «Formato del visual > General > Título > Subtítulo > fx > Valor de campo».
+
+Subtítulo catálogo =
+"Estrenos " & MIN ( contenido[anio_estreno] ) & "–" & MAX ( contenido[anio_estreno] )
+    & " · n = " & FORMAT ( [Total de títulos], "#,0" ) & " títulos"
+
+// (Subtítulo rating: ver la versión final, con el aviso de 2025, al final de este archivo.)
+
+Subtítulo ROI =
+"Películas con presupuesto de 1 M USD o más · n = " & FORMAT ( [Películas con datos financieros], "#,0" ) & " películas"
+
+
+// =====================================================================================================
+// Medidas y columna creadas durante la construcción del dashboard (no estaban en la propuesta inicial)
+// =====================================================================================================
+// Se conservaron las medidas originales ROI_Mediano (MEDIANX sobre las películas con financiero_valido)
+// y Rating_Promedio (promedio con votos >= 20), que calculan lo mismo que las anteriores.
+
+// COLUMNA CALCULADA (clic derecho sobre la tabla contenido > Nueva columna; no es una medida).
+// Etiqueta única por título para que los rankings no mezclen homónimos (p. ej. Succubus y Flow).
+titulo_visual =
+VAR n = CALCULATE ( COUNTROWS ( contenido ), ALLEXCEPT ( contenido, contenido[titulo] ) )
+VAR n2 = CALCULATE ( COUNTROWS ( contenido ), ALLEXCEPT ( contenido, contenido[titulo], contenido[tipo], contenido[anio_estreno] ) )
+RETURN
+    contenido[titulo]
+        & IF ( n > 1, " (" & contenido[tipo] & ", " & contenido[anio_estreno] & ")", "" )
+        & IF ( n2 > 1, " #" & contenido[id_fuente], "" )
+
+// Para el filtro Top 10 del ranking de rating: desempata por votos como el KPI K15.
+Rating para ordenar =
+[Rating promedio (0-10)] + SUM ( contenido[votos] ) / 100000000
+
+// KEEPFILTERS conserva el filtro de cada barra; sin él todas las barras muestran el mismo total.
+Títulos con país informado =
+CALCULATE ( [Total de títulos], KEEPFILTERS ( contenido[pais_principal] <> "Sin país informado" ) )
+
+Subtítulo n rating =
+"n = " & FORMAT ( [Títulos con rating confiable], "#,0" ) & " títulos con 20 o más votos"
+
+Subtítulo rating =
+"Estrenos " & MIN ( contenido[anio_estreno] ) & "–" & MAX ( contenido[anio_estreno] )
+    & " · n = " & FORMAT ( [Títulos con rating confiable], "#,0" ) & " títulos con 20 o más votos"
+    & IF ( MAX ( contenido[anio_estreno] ) >= 2025, " · 2025 se calcula con pocos títulos", "" )
+
+Subtítulo países =
+"Estrenos " & MIN ( contenido[anio_estreno] ) & "–" & MAX ( contenido[anio_estreno] )
+    & " · n = " & FORMAT ( CALCULATE ( [Total de títulos], contenido[pais_principal] <> "Sin país informado" ), "#,0" )
+    & " títulos con país informado"
+
+Subtítulo popularidad =
+[Subtítulo catálogo]
+    & IF ( MAX ( contenido[anio_estreno] ) >= 2024, " · 2024–2025 con poca interacción acumulada", "" )
+
+Subtítulo ROI total =
+"Entre las " & FORMAT ( CALCULATE ( [Películas con datos financieros], ALL ( contenido[titulo_visual] ) ), "#,0" )
+    & " películas con presupuesto de 1 M USD o más"

@@ -1,0 +1,632 @@
+kpi_id,kpi,tipo_contenido,dimension,posicion,valor,unidad
+K01,Total de títulos,Todos,,,31991,títulos
+K02,Participación en el catalogo,Todos,,,100.0,% del catalogo
+K03,Rating promedio (≥ 20 votos),Todos,,,6.62,escala 0-10
+K04,Popularidad promedio,Todos,,,42.63,índice relativo
+K05,Paises distintos,Todos,,,122,países
+K06,Idiomas distintos,Todos,,,83,idiomas
+K07,Género con más títulos,Todos,,,Drama,género
+K08,Género con mejor rating promedio (entre los 10 más frecuentes),Todos,,,Animación,género
+K11,Top 10 géneros por títulos,Todos,Drama,1,14769,títulos
+K11,Top 10 géneros por títulos,Todos,Comedia,2,9105,títulos
+K11,Top 10 géneros por títulos,Todos,Acción,3,5227,títulos
+K11,Top 10 géneros por títulos,Todos,Animación,4,4069,títulos
+K11,Top 10 géneros por títulos,Todos,Suspenso,5,3769,títulos
+K11,Top 10 géneros por títulos,Todos,Aventura,6,3756,títulos
+K11,Top 10 géneros por títulos,Todos,Familia,7,3554,títulos
+K11,Top 10 géneros por títulos,Todos,Ciencia ficción,8,3412,títulos
+K11,Top 10 géneros por títulos,Todos,Fantasía,9,3408,títulos
+K11,Top 10 géneros por títulos,Todos,Crimen,10,3203,títulos
+K09,País con más títulos,Todos,,,Estados Unidos,país
+K10,Idioma con más títulos,Todos,,,Inglés,idioma
+K12,Top 10 países por títulos,Todos,Estados Unidos,1,8180,títulos
+K12,Top 10 países por títulos,Todos,Japón,2,2759,títulos
+K12,Top 10 países por títulos,Todos,China,3,2283,títulos
+K12,Top 10 países por títulos,Todos,Corea del Sur,4,2070,títulos
+K12,Top 10 países por títulos,Todos,Reino Unido,5,1712,títulos
+K12,Top 10 países por títulos,Todos,Canadá,6,1509,títulos
+K12,Top 10 países por títulos,Todos,Francia,7,1353,títulos
+K12,Top 10 países por títulos,Todos,India,8,856,títulos
+K12,Top 10 países por títulos,Todos,Alemania,9,790,títulos
+K12,Top 10 países por títulos,Todos,España,10,575,títulos
+K13,Top 10 idiomas por títulos,Todos,Inglés,1,13969,títulos
+K13,Top 10 idiomas por títulos,Todos,Chino mandarín,2,2834,títulos
+K13,Top 10 idiomas por títulos,Todos,Japonés,3,2784,títulos
+K13,Top 10 idiomas por títulos,Todos,Coreano,4,2240,títulos
+K13,Top 10 idiomas por títulos,Todos,Español,5,1646,títulos
+K13,Top 10 idiomas por títulos,Todos,Francés,6,1639,títulos
+K13,Top 10 idiomas por títulos,Todos,Alemán,7,730,títulos
+K13,Top 10 idiomas por títulos,Todos,Hindi,8,635,títulos
+K13,Top 10 idiomas por títulos,Todos,Tagalo,9,525,títulos
+K13,Top 10 idiomas por títulos,Todos,Portugués,10,483,títulos
+K14,Top 10 títulos por popularidad,Todos,The Late Show with Stephen Colbert,1,6421.92,índice relativo
+K14,Top 10 títulos por popularidad,Todos,The Tonight Show Starring Jimmy Fallon,2,4925.25,índice relativo
+K14,Top 10 títulos por popularidad,Todos,The Gorge,3,3876.01,índice relativo
+K14,Top 10 títulos por popularidad,Todos,Good Mythical Morning,4,3414.47,índice relativo
+K14,Top 10 títulos por popularidad,Todos,Flight Risk,5,3320.62,índice relativo
+K14,Top 10 títulos por popularidad,Todos,Chronicles of the Sun,6,2987.48,índice relativo
+K14,Top 10 títulos por popularidad,Todos,Volta por Cima,7,2885.72,índice relativo
+K14,Top 10 títulos por popularidad,Todos,She's the One,8,2862.87,índice relativo
+K14,Top 10 títulos por popularidad,Todos,Mufasa: The Lion King,9,2643.63,índice relativo
+K14,Top 10 títulos por popularidad,Todos,Crazy About You,10,2442.24,índice relativo
+K15,Top 10 títulos por rating (≥ 20 votos),Todos,Nude,1,9.5,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Todos,Succubus,2,9.5,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Todos,Kill Shot,3,9.3,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Todos,Wizards Beyond Waverly Place,4,9.3,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Todos,All the Queen's Men,5,9.3,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Todos,The Territory,6,9.3,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Todos,Flow,7,9.3,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Todos,The Three-Body Problem in Minecraft,8,9.3,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Todos,When I Fly Towards You,9,9.23,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Todos,Selena + Chef,10,9.2,escala 0-10
+K16,Incorporaciones por año,Todos,2010,,2000,títulos
+K16,Incorporaciones por año,Todos,2011,,2000,títulos
+K16,Incorporaciones por año,Todos,2012,,2000,títulos
+K16,Incorporaciones por año,Todos,2013,,2000,títulos
+K16,Incorporaciones por año,Todos,2014,,2000,títulos
+K16,Incorporaciones por año,Todos,2015,,2000,títulos
+K16,Incorporaciones por año,Todos,2016,,2000,títulos
+K16,Incorporaciones por año,Todos,2017,,2000,títulos
+K16,Incorporaciones por año,Todos,2018,,2000,títulos
+K16,Incorporaciones por año,Todos,2019,,2000,títulos
+K16,Incorporaciones por año,Todos,2020,,2000,títulos
+K16,Incorporaciones por año,Todos,2021,,2000,títulos
+K16,Incorporaciones por año,Todos,2022,,2000,títulos
+K16,Incorporaciones por año,Todos,2023,,2000,títulos
+K16,Incorporaciones por año,Todos,2024,,2000,títulos
+K16,Incorporaciones por año,Todos,2025,,1991,títulos
+K24,Estrenos por año,Todos,2010,,2000,títulos
+K24,Estrenos por año,Todos,2011,,2000,títulos
+K24,Estrenos por año,Todos,2012,,2000,títulos
+K24,Estrenos por año,Todos,2013,,2000,títulos
+K24,Estrenos por año,Todos,2014,,2000,títulos
+K24,Estrenos por año,Todos,2015,,2000,títulos
+K24,Estrenos por año,Todos,2016,,2000,títulos
+K24,Estrenos por año,Todos,2017,,2000,títulos
+K24,Estrenos por año,Todos,2018,,2000,títulos
+K24,Estrenos por año,Todos,2019,,2000,títulos
+K24,Estrenos por año,Todos,2020,,2000,títulos
+K24,Estrenos por año,Todos,2021,,2000,títulos
+K24,Estrenos por año,Todos,2022,,2000,títulos
+K24,Estrenos por año,Todos,2023,,2000,títulos
+K24,Estrenos por año,Todos,2024,,2000,títulos
+K24,Estrenos por año,Todos,2025,,1991,títulos
+K17,Cantidad de géneros,Todos,,,23,géneros
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Todos,Telenovela,1,155.46,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Todos,Talk show,2,130.61,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Todos,Noticias,3,102.0,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Todos,Reality,4,79.33,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Todos,Familia,5,56.45,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Todos,Aventura,6,52.37,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Todos,Ciencia ficción,7,49.87,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Todos,Fantasía,8,46.03,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Todos,Acción,9,45.6,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Todos,Animación,10,45.55,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Todos,Brasil,1,86.54,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Todos,Colombia,2,75.75,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Todos,Chile,3,72.0,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Todos,Filipinas,4,68.76,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Todos,Países Bajos,5,67.9,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Todos,México,6,66.02,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Todos,República Checa,7,55.02,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Todos,Turquía,8,53.84,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Todos,India,9,51.98,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Todos,España,10,47.17,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Todos,Portugués,1,104.31,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Todos,Tagalo,2,69.64,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Todos,Neerlandés,3,61.37,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Todos,Hindi,4,60.34,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Todos,Español,5,57.69,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Todos,Turco,6,52.59,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Todos,Coreano,7,44.9,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Todos,Alemán,8,44.39,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Todos,Sueco,9,41.11,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Todos,Polaco,10,39.88,índice relativo
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Telenovela,1,7.29,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Animación,2,7.24,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Documental,3,7.21,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Música,4,6.99,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Fantasía,5,6.98,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Reality,6,6.94,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Aventura,7,6.87,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Familia,8,6.86,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Drama,9,6.83,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Bélica,10,6.83,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Corea del Sur,1,7.33,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Japón,2,7.31,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,México,3,7.24,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Turquía,4,7.02,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Brasil,5,6.89,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,China,6,6.85,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Argentina,7,6.79,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Dinamarca,8,6.68,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,Rusia,9,6.67,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Todos,India,10,6.6,escala 0-10
+K23,Top 10 títulos con más votos,Todos,Inception,1,37119,votos
+K23,Top 10 títulos con más votos,Todos,Interstellar,2,36625,votos
+K23,Top 10 títulos con más votos,Todos,Deadpool,3,31371,votos
+K23,Top 10 títulos con más votos,Todos,The Avengers,4,31285,votos
+K23,Top 10 títulos con más votos,Todos,Avengers: Infinity War,5,30231,votos
+K23,Top 10 títulos con más votos,Todos,Guardians of the Galaxy,6,28308,votos
+K23,Top 10 títulos con más votos,Todos,Django Unchained,7,26532,votos
+K23,Top 10 títulos con más votos,Todos,Joker,8,26169,votos
+K23,Top 10 títulos con más votos,Todos,Avengers: Endgame,9,26065,votos
+K23,Top 10 títulos con más votos,Todos,Game of Thrones,10,24664,votos
+K25,Top 10 directores por títulos,Todos,Don Michael Perez,1,21,títulos
+K25,Top 10 directores por títulos,Todos,Dominic Zapata,2,21,títulos
+K25,Top 10 directores por títulos,Todos,Tyler Perry,3,20,títulos
+K25,Top 10 directores por títulos,Todos,Sam Liu,4,18,títulos
+K25,Top 10 directores por títulos,Todos,Gil Tejada Jr.,5,17,títulos
+K25,Top 10 directores por títulos,Todos,Roel Reiné,6,15,títulos
+K25,Top 10 directores por títulos,Todos,Steven Soderbergh,7,15,títulos
+K25,Top 10 directores por títulos,Todos,Sean McNamara,8,15,títulos
+K25,Top 10 directores por títulos,Todos,Ricky Davao,9,15,títulos
+K25,Top 10 directores por títulos,Todos,Sion Sono,10,14,títulos
+K26,Top 10 actores por títulos,Todos,Min Do-yoon,1,111,títulos
+K26,Top 10 actores por títulos,Todos,Kana Hanazawa,2,97,títulos
+K26,Top 10 actores por títulos,Todos,Yuki Kaji,3,70,títulos
+K26,Top 10 actores por títulos,Todos,Grey DeLisle,4,65,títulos
+K26,Top 10 actores por títulos,Todos,Yuichi Nakamura,5,63,títulos
+K26,Top 10 actores por títulos,Todos,Takahiro Sakurai,6,63,títulos
+K26,Top 10 actores por títulos,Todos,Natsuki Hanae,7,63,títulos
+K26,Top 10 actores por títulos,Todos,Yoko Hikasa,8,62,títulos
+K26,Top 10 actores por títulos,Todos,Mamoru Miyano,9,59,títulos
+K26,Top 10 actores por títulos,Todos,Saori Hayami,10,59,títulos
+F01,Películas con datos financieros válidos,Todos,,,3386,películas
+F02,Ingreso total (películas válidas),Todos,,,366584862326,USD
+F03,Presupuesto total (películas válidas),Todos,,,125908042768,USD
+F04,ROI mediano (ingresos / presupuesto),Todos,,,1.68,razón (x)
+F07,Presupuesto promedio (películas válidas),Todos,,,37184892,USD
+F08,Top 10 películas por ingresos,Todos,Avengers: Endgame,1,2799439100,USD
+F08,Top 10 películas por ingresos,Todos,Avatar: The Way of Water,2,2320250281,USD
+F08,Top 10 películas por ingresos,Todos,Star Wars: The Force Awakens,3,2068223624,USD
+F08,Top 10 películas por ingresos,Todos,Avengers: Infinity War,4,2052415039,USD
+F08,Top 10 películas por ingresos,Todos,Ne Zha 2,5,1990000000,USD
+F08,Top 10 películas por ingresos,Todos,Spider-Man: No Way Home,6,1921847111,USD
+F08,Top 10 películas por ingresos,Todos,Inside Out 2,7,1698863816,USD
+F08,Top 10 películas por ingresos,Todos,Jurassic World,8,1671537444,USD
+F08,Top 10 películas por ingresos,Todos,The Lion King,9,1662020819,USD
+F08,Top 10 películas por ingresos,Todos,The Avengers,10,1518815515,USD
+F09,Top 10 películas por ROI,Todos,Dragon Ball Super: Broly,1,125.0,razón (x)
+F09,Top 10 películas por ROI,Todos,The Devil Inside,2,101.8,razón (x)
+F09,Top 10 películas por ROI,Todos,Lost in Thailand,3,94.55,razón (x)
+F09,Top 10 películas por ROI,Todos,Searching,4,75.46,razón (x)
+F09,Top 10 películas por ROI,Todos,Insidious,5,66.74,razón (x)
+F09,Top 10 películas por ROI,Todos,Unfriended,6,62.9,razón (x)
+F09,Top 10 películas por ROI,Todos,Paranormal Activity 2,7,59.17,razón (x)
+F09,Top 10 películas por ROI,Todos,Get Out,8,56.76,razón (x)
+F09,Top 10 películas por ROI,Todos,Tunnel,9,52.44,razón (x)
+F09,Top 10 películas por ROI,Todos,The Last Kumite,10,49.88,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Todos,Dragon Ball Super: Broly,1,125.0,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Todos,The Devil Inside,2,101.8,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Todos,Lost in Thailand,3,94.55,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Todos,Searching,4,75.46,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Todos,Insidious,5,66.74,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Todos,Unfriended,6,62.9,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Todos,Paranormal Activity 2,7,59.17,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Todos,Get Out,8,56.76,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Todos,Tunnel,9,52.44,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Todos,The Last Kumite,10,49.88,razón (x)
+F05,Género con mejor ROI mediano,Todos,,,Animación,género
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Animación,1,2.29,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Familia,2,2.17,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Terror,3,2.13,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Aventura,4,2.02,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Comedia,5,2.02,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Ciencia ficción,6,1.93,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Música,7,1.88,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Fantasía,8,1.87,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Acción,9,1.83,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Romance,10,1.7,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Misterio,11,1.59,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Suspenso,12,1.34,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Crimen,13,1.33,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Drama,14,1.23,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Bélica,15,1.21,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Historia,16,1.14,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Todos,Wéstern,17,0.59,razón (x)
+K01,Total de títulos,Película,,,16000,títulos
+K02,Participación en el catalogo,Película,,,50.0,% del catalogo
+K03,Rating promedio (≥ 20 votos),Película,,,6.36,escala 0-10
+K04,Popularidad promedio,Película,,,20.38,índice relativo
+K05,Paises distintos,Película,,,113,países
+K06,Idiomas distintos,Película,,,74,idiomas
+K07,Género con más títulos,Película,,,Drama,género
+K08,Género con mejor rating promedio (entre los 10 más frecuentes),Película,,,Animación,género
+K11,Top 10 géneros por títulos,Película,Drama,1,6910,títulos
+K11,Top 10 géneros por títulos,Película,Comedia,2,4533,títulos
+K11,Top 10 géneros por títulos,Película,Suspenso,3,3769,títulos
+K11,Top 10 géneros por títulos,Película,Acción,4,3239,títulos
+K11,Top 10 géneros por títulos,Película,Romance,5,2571,títulos
+K11,Top 10 géneros por títulos,Película,Terror,6,2425,títulos
+K11,Top 10 géneros por títulos,Película,Aventura,7,1768,títulos
+K11,Top 10 géneros por títulos,Película,Crimen,8,1738,títulos
+K11,Top 10 géneros por títulos,Película,Animación,9,1579,títulos
+K11,Top 10 géneros por títulos,Película,Familia,10,1472,títulos
+K09,País con más títulos,Película,,,Estados Unidos,país
+K10,Idioma con más títulos,Película,,,Inglés,idioma
+K12,Top 10 países por títulos,Película,Estados Unidos,1,5699,títulos
+K12,Top 10 países por títulos,Película,Reino Unido,2,1050,títulos
+K12,Top 10 países por títulos,Película,Francia,3,1030,títulos
+K12,Top 10 países por títulos,Película,Canadá,4,932,títulos
+K12,Top 10 países por títulos,Película,Japón,5,914,títulos
+K12,Top 10 países por títulos,Película,Corea del Sur,6,818,títulos
+K12,Top 10 países por títulos,Película,India,7,489,títulos
+K12,Top 10 países por títulos,Película,Bélgica,8,460,títulos
+K12,Top 10 países por títulos,Película,China,9,415,títulos
+K12,Top 10 países por títulos,Película,Alemania,10,379,títulos
+K13,Top 10 idiomas por títulos,Película,Inglés,1,9534,títulos
+K13,Top 10 idiomas por títulos,Película,Francés,2,1054,títulos
+K13,Top 10 idiomas por títulos,Película,Japonés,3,904,títulos
+K13,Top 10 idiomas por títulos,Película,Coreano,4,876,títulos
+K13,Top 10 idiomas por títulos,Película,Español,5,731,títulos
+K13,Top 10 idiomas por títulos,Película,Chino mandarín,6,378,títulos
+K13,Top 10 idiomas por títulos,Película,Italiano,7,312,títulos
+K13,Top 10 idiomas por títulos,Película,Hindi,8,290,títulos
+K13,Top 10 idiomas por títulos,Película,Alemán,9,279,títulos
+K13,Top 10 idiomas por títulos,Película,Ruso,10,190,títulos
+K14,Top 10 títulos por popularidad,Película,The Gorge,1,3876.01,índice relativo
+K14,Top 10 títulos por popularidad,Película,Flight Risk,2,3320.62,índice relativo
+K14,Top 10 títulos por popularidad,Película,Mufasa: The Lion King,3,2643.63,índice relativo
+K14,Top 10 títulos por popularidad,Película,Sonic the Hedgehog 3,4,2402.5,índice relativo
+K14,Top 10 títulos por popularidad,Película,Moana 2,5,2347.01,índice relativo
+K14,Top 10 títulos por popularidad,Película,Amaran,6,1780.29,índice relativo
+K14,Top 10 títulos por popularidad,Película,Captain America: Brave New World,7,1495.72,índice relativo
+K14,Top 10 títulos por popularidad,Película,Companion,8,1283.36,índice relativo
+K14,Top 10 títulos por popularidad,Película,Panda Plan,9,1214.51,índice relativo
+K14,Top 10 títulos por popularidad,Película,Kraven the Hunter,10,1195.88,índice relativo
+K15,Top 10 títulos por rating (≥ 20 votos),Película,Nude,1,9.5,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Película,Succubus,2,9.5,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Película,Kill Shot,3,9.3,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Película,Flow,4,9.3,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Película,Break the Silence: The Movie,5,9.0,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Película,The Three Deaths of Marisela Escobedo,6,8.9,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Película,BTS: Permission to Dance on Stage - LA,7,8.9,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Película,The Secret of Dr. Grinberg,8,8.9,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Película,Selena Gomez: My Mind & Me,9,8.7,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Película,My First Client,10,8.7,escala 0-10
+K16,Incorporaciones por año,Película,2010,,1000,títulos
+K16,Incorporaciones por año,Película,2011,,1000,títulos
+K16,Incorporaciones por año,Película,2012,,1000,títulos
+K16,Incorporaciones por año,Película,2013,,1000,títulos
+K16,Incorporaciones por año,Película,2014,,1000,títulos
+K16,Incorporaciones por año,Película,2015,,1000,títulos
+K16,Incorporaciones por año,Película,2016,,1000,títulos
+K16,Incorporaciones por año,Película,2017,,1000,títulos
+K16,Incorporaciones por año,Película,2018,,1000,títulos
+K16,Incorporaciones por año,Película,2019,,1000,títulos
+K16,Incorporaciones por año,Película,2020,,1000,títulos
+K16,Incorporaciones por año,Película,2021,,1000,títulos
+K16,Incorporaciones por año,Película,2022,,1000,títulos
+K16,Incorporaciones por año,Película,2023,,1000,títulos
+K16,Incorporaciones por año,Película,2024,,1000,títulos
+K16,Incorporaciones por año,Película,2025,,1000,títulos
+K24,Estrenos por año,Película,2010,,1000,títulos
+K24,Estrenos por año,Película,2011,,1000,títulos
+K24,Estrenos por año,Película,2012,,1000,títulos
+K24,Estrenos por año,Película,2013,,1000,títulos
+K24,Estrenos por año,Película,2014,,1000,títulos
+K24,Estrenos por año,Película,2015,,1000,títulos
+K24,Estrenos por año,Película,2016,,1000,títulos
+K24,Estrenos por año,Película,2017,,1000,títulos
+K24,Estrenos por año,Película,2018,,1000,títulos
+K24,Estrenos por año,Película,2019,,1000,títulos
+K24,Estrenos por año,Película,2020,,1000,títulos
+K24,Estrenos por año,Película,2021,,1000,títulos
+K24,Estrenos por año,Película,2022,,1000,títulos
+K24,Estrenos por año,Película,2023,,1000,títulos
+K24,Estrenos por año,Película,2024,,1000,títulos
+K24,Estrenos por año,Película,2025,,1000,títulos
+K17,Cantidad de géneros,Película,,,19,géneros
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Película,Aventura,1,35.47,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Película,Ciencia ficción,2,34.29,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Película,Acción,3,32.21,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Película,Animación,4,28.61,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Película,Familia,5,28.36,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Película,Fantasía,6,25.24,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Película,Suspenso,7,24.49,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Película,Bélica,8,22.3,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Película,Crimen,9,21.6,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Película,Terror,10,21.45,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Película,Estados Unidos,1,24.96,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Película,España,2,23.64,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Película,China,3,22.65,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Película,Australia,4,21.19,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Película,Reino Unido,5,20.77,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Película,México,6,19.77,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Película,Canadá,7,19.31,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Película,Filipinas,8,18.45,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Película,India,9,18.42,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Película,Japón,10,18.37,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Película,Inglés,1,23.19,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Película,Chino mandarín,2,20.19,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Película,Español,3,19.01,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Película,Tagalo,4,18.63,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Película,Japonés,5,16.8,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Película,Coreano,6,16.54,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Película,Francés,7,14.55,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Película,Hindi,8,13.89,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Película,Portugués,9,13.58,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Película,Ruso,10,13.34,índice relativo
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Documental,1,7.15,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Música,2,6.99,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Animación,3,6.97,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Historia,4,6.78,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Familia,5,6.68,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Bélica,6,6.64,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Drama,7,6.54,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Fantasía,8,6.52,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Romance,9,6.48,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Aventura,10,6.48,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Corea del Sur,1,6.96,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,México,2,6.96,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Japón,3,6.95,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Brasil,4,6.77,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Dinamarca,5,6.64,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,India,6,6.56,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,China,7,6.55,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Bélgica,8,6.42,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Alemania,9,6.4,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Película,Rusia,10,6.39,escala 0-10
+K23,Top 10 títulos con más votos,Película,Inception,1,37119,votos
+K23,Top 10 títulos con más votos,Película,Interstellar,2,36625,votos
+K23,Top 10 títulos con más votos,Película,Deadpool,3,31371,votos
+K23,Top 10 títulos con más votos,Película,The Avengers,4,31285,votos
+K23,Top 10 títulos con más votos,Película,Avengers: Infinity War,5,30231,votos
+K23,Top 10 títulos con más votos,Película,Guardians of the Galaxy,6,28308,votos
+K23,Top 10 títulos con más votos,Película,Django Unchained,7,26532,votos
+K23,Top 10 títulos con más votos,Película,Joker,8,26169,votos
+K23,Top 10 títulos con más votos,Película,Avengers: Endgame,9,26065,votos
+K23,Top 10 títulos con más votos,Película,The Wolf of Wall Street,10,24358,votos
+K25,Top 10 directores por títulos,Película,Tyler Perry,1,20,títulos
+K25,Top 10 directores por títulos,Película,Sam Liu,2,18,títulos
+K25,Top 10 directores por títulos,Película,Roel Reiné,3,15,títulos
+K25,Top 10 directores por títulos,Película,Steven Soderbergh,4,15,títulos
+K25,Top 10 directores por títulos,Película,Sean McNamara,5,15,títulos
+K25,Top 10 directores por títulos,Película,Choi Woo-seong,6,14,títulos
+K25,Top 10 directores por títulos,Película,Ernie Barbarash,7,13,títulos
+K25,Top 10 directores por títulos,Película,Jesse V. Johnson,8,13,títulos
+K25,Top 10 directores por títulos,Película,Peter Sullivan,9,13,títulos
+K25,Top 10 directores por títulos,Película,Don Michael Paul,10,13,títulos
+K26,Top 10 actores por títulos,Película,Min Do-yoon,1,111,títulos
+K26,Top 10 actores por títulos,Película,Lee Chae-dam,2,53,títulos
+K26,Top 10 actores por títulos,Película,Nicolas Cage,3,52,títulos
+K26,Top 10 actores por títulos,Película,Bruce Willis,4,52,títulos
+K26,Top 10 actores por títulos,Película,Grey DeLisle,5,48,títulos
+K26,Top 10 actores por títulos,Película,Samuel L. Jackson,6,43,títulos
+K26,Top 10 actores por títulos,Película,Kang Min-woo,7,42,títulos
+K26,Top 10 actores por títulos,Película,Sang Woo,8,41,títulos
+K26,Top 10 actores por títulos,Película,Frank Grillo,9,39,títulos
+K26,Top 10 actores por títulos,Película,Antonio Banderas,10,38,títulos
+F01,Películas con datos financieros válidos,Película,,,3386,películas
+F02,Ingreso total (películas válidas),Película,,,366584862326,USD
+F03,Presupuesto total (películas válidas),Película,,,125908042768,USD
+F04,ROI mediano (ingresos / presupuesto),Película,,,1.68,razón (x)
+F07,Presupuesto promedio (películas válidas),Película,,,37184892,USD
+F08,Top 10 películas por ingresos,Película,Avengers: Endgame,1,2799439100,USD
+F08,Top 10 películas por ingresos,Película,Avatar: The Way of Water,2,2320250281,USD
+F08,Top 10 películas por ingresos,Película,Star Wars: The Force Awakens,3,2068223624,USD
+F08,Top 10 películas por ingresos,Película,Avengers: Infinity War,4,2052415039,USD
+F08,Top 10 películas por ingresos,Película,Ne Zha 2,5,1990000000,USD
+F08,Top 10 películas por ingresos,Película,Spider-Man: No Way Home,6,1921847111,USD
+F08,Top 10 películas por ingresos,Película,Inside Out 2,7,1698863816,USD
+F08,Top 10 películas por ingresos,Película,Jurassic World,8,1671537444,USD
+F08,Top 10 películas por ingresos,Película,The Lion King,9,1662020819,USD
+F08,Top 10 películas por ingresos,Película,The Avengers,10,1518815515,USD
+F09,Top 10 películas por ROI,Película,Dragon Ball Super: Broly,1,125.0,razón (x)
+F09,Top 10 películas por ROI,Película,The Devil Inside,2,101.8,razón (x)
+F09,Top 10 películas por ROI,Película,Lost in Thailand,3,94.55,razón (x)
+F09,Top 10 películas por ROI,Película,Searching,4,75.46,razón (x)
+F09,Top 10 películas por ROI,Película,Insidious,5,66.74,razón (x)
+F09,Top 10 películas por ROI,Película,Unfriended,6,62.9,razón (x)
+F09,Top 10 películas por ROI,Película,Paranormal Activity 2,7,59.17,razón (x)
+F09,Top 10 películas por ROI,Película,Get Out,8,56.76,razón (x)
+F09,Top 10 películas por ROI,Película,Tunnel,9,52.44,razón (x)
+F09,Top 10 películas por ROI,Película,The Last Kumite,10,49.88,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Película,Dragon Ball Super: Broly,1,125.0,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Película,The Devil Inside,2,101.8,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Película,Lost in Thailand,3,94.55,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Película,Searching,4,75.46,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Película,Insidious,5,66.74,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Película,Unfriended,6,62.9,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Película,Paranormal Activity 2,7,59.17,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Película,Get Out,8,56.76,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Película,Tunnel,9,52.44,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Película,The Last Kumite,10,49.88,razón (x)
+F05,Género con mejor ROI mediano,Película,,,Animación,género
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Animación,1,2.29,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Familia,2,2.17,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Terror,3,2.13,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Aventura,4,2.02,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Comedia,5,2.02,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Ciencia ficción,6,1.93,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Música,7,1.88,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Fantasía,8,1.87,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Acción,9,1.83,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Romance,10,1.7,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Misterio,11,1.59,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Suspenso,12,1.34,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Crimen,13,1.33,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Drama,14,1.23,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Bélica,15,1.21,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Historia,16,1.14,razón (x)
+F06,ROI mediano por genero (≥ 30 películas válidas),Película,Wéstern,17,0.59,razón (x)
+K01,Total de títulos,Serie,,,15991,títulos
+K02,Participación en el catalogo,Serie,,,50.0,% del catalogo
+K03,Rating promedio (≥ 20 votos),Serie,,,7.39,escala 0-10
+K04,Popularidad promedio,Serie,,,64.88,índice relativo
+K05,Paises distintos,Serie,,,91,países
+K06,Idiomas distintos,Serie,,,71,idiomas
+K07,Género con más títulos,Serie,,,Drama,género
+K08,Género con mejor rating promedio (entre los 10 más frecuentes),Serie,,,Animación,género
+K11,Top 10 géneros por títulos,Serie,Drama,1,7859,títulos
+K11,Top 10 géneros por títulos,Serie,Comedia,2,4572,títulos
+K11,Top 10 géneros por títulos,Serie,Animación,3,2490,títulos
+K11,Top 10 géneros por títulos,Serie,Familia,4,2082,títulos
+K11,Top 10 géneros por títulos,Serie,Acción,5,1988,títulos
+K11,Top 10 géneros por títulos,Serie,Aventura,6,1988,títulos
+K11,Top 10 géneros por títulos,Serie,Ciencia ficción,7,1958,títulos
+K11,Top 10 géneros por títulos,Serie,Fantasía,8,1958,títulos
+K11,Top 10 géneros por títulos,Serie,Reality,9,1630,títulos
+K11,Top 10 géneros por títulos,Serie,Crimen,10,1465,títulos
+K09,País con más títulos,Serie,,,Estados Unidos,país
+K10,Idioma con más títulos,Serie,,,Inglés,idioma
+K12,Top 10 países por títulos,Serie,Estados Unidos,1,2481,títulos
+K12,Top 10 países por títulos,Serie,China,2,1868,títulos
+K12,Top 10 países por títulos,Serie,Japón,3,1845,títulos
+K12,Top 10 países por títulos,Serie,Corea del Sur,4,1252,títulos
+K12,Top 10 países por títulos,Serie,Reino Unido,5,662,títulos
+K12,Top 10 países por títulos,Serie,Canadá,6,577,títulos
+K12,Top 10 países por títulos,Serie,Alemania,7,411,títulos
+K12,Top 10 países por títulos,Serie,Filipinas,8,395,títulos
+K12,Top 10 países por títulos,Serie,India,9,367,títulos
+K12,Top 10 países por títulos,Serie,Francia,10,323,títulos
+K13,Top 10 idiomas por títulos,Serie,Inglés,1,4435,títulos
+K13,Top 10 idiomas por títulos,Serie,Chino mandarín,2,2456,títulos
+K13,Top 10 idiomas por títulos,Serie,Japonés,3,1880,títulos
+K13,Top 10 idiomas por títulos,Serie,Coreano,4,1364,títulos
+K13,Top 10 idiomas por títulos,Serie,Español,5,915,títulos
+K13,Top 10 idiomas por títulos,Serie,Francés,6,585,títulos
+K13,Top 10 idiomas por títulos,Serie,Alemán,7,451,títulos
+K13,Top 10 idiomas por títulos,Serie,Tagalo,8,398,títulos
+K13,Top 10 idiomas por títulos,Serie,Portugués,9,346,títulos
+K13,Top 10 idiomas por títulos,Serie,Hindi,10,345,títulos
+K14,Top 10 títulos por popularidad,Serie,The Late Show with Stephen Colbert,1,6421.92,índice relativo
+K14,Top 10 títulos por popularidad,Serie,The Tonight Show Starring Jimmy Fallon,2,4925.25,índice relativo
+K14,Top 10 títulos por popularidad,Serie,Good Mythical Morning,3,3414.47,índice relativo
+K14,Top 10 títulos por popularidad,Serie,Chronicles of the Sun,4,2987.48,índice relativo
+K14,Top 10 títulos por popularidad,Serie,Volta por Cima,5,2885.72,índice relativo
+K14,Top 10 títulos por popularidad,Serie,She's the One,6,2862.87,índice relativo
+K14,Top 10 títulos por popularidad,Serie,Crazy About You,7,2442.24,índice relativo
+K14,Top 10 títulos por popularidad,Serie,La Casa de los Famosos Colombia,8,2398.16,índice relativo
+K14,Top 10 títulos por popularidad,Serie,Late Night with Seth Meyers,9,2395.02,índice relativo
+K14,Top 10 títulos por popularidad,Serie,GH dúo,10,2379.88,índice relativo
+K15,Top 10 títulos por rating (≥ 20 votos),Serie,Wizards Beyond Waverly Place,1,9.3,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Serie,All the Queen's Men,2,9.3,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Serie,The Territory,3,9.3,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Serie,The Three-Body Problem in Minecraft,4,9.3,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Serie,When I Fly Towards You,5,9.23,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Serie,Selena + Chef,6,9.2,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Serie,Difficult Teens,7,9.2,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Serie,Tyler Perry's Zatima,8,9.2,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Serie,Omar,9,9.2,escala 0-10
+K15,Top 10 títulos por rating (≥ 20 votos),Serie,Love in the Big City,10,9.2,escala 0-10
+K16,Incorporaciones por año,Serie,2010,,1000,títulos
+K16,Incorporaciones por año,Serie,2011,,1000,títulos
+K16,Incorporaciones por año,Serie,2012,,1000,títulos
+K16,Incorporaciones por año,Serie,2013,,1000,títulos
+K16,Incorporaciones por año,Serie,2014,,1000,títulos
+K16,Incorporaciones por año,Serie,2015,,1000,títulos
+K16,Incorporaciones por año,Serie,2016,,1000,títulos
+K16,Incorporaciones por año,Serie,2017,,1000,títulos
+K16,Incorporaciones por año,Serie,2018,,1000,títulos
+K16,Incorporaciones por año,Serie,2019,,1000,títulos
+K16,Incorporaciones por año,Serie,2020,,1000,títulos
+K16,Incorporaciones por año,Serie,2021,,1000,títulos
+K16,Incorporaciones por año,Serie,2022,,1000,títulos
+K16,Incorporaciones por año,Serie,2023,,1000,títulos
+K16,Incorporaciones por año,Serie,2024,,1000,títulos
+K16,Incorporaciones por año,Serie,2025,,991,títulos
+K24,Estrenos por año,Serie,2010,,1000,títulos
+K24,Estrenos por año,Serie,2011,,1000,títulos
+K24,Estrenos por año,Serie,2012,,1000,títulos
+K24,Estrenos por año,Serie,2013,,1000,títulos
+K24,Estrenos por año,Serie,2014,,1000,títulos
+K24,Estrenos por año,Serie,2015,,1000,títulos
+K24,Estrenos por año,Serie,2016,,1000,títulos
+K24,Estrenos por año,Serie,2017,,1000,títulos
+K24,Estrenos por año,Serie,2018,,1000,títulos
+K24,Estrenos por año,Serie,2019,,1000,títulos
+K24,Estrenos por año,Serie,2020,,1000,títulos
+K24,Estrenos por año,Serie,2021,,1000,títulos
+K24,Estrenos por año,Serie,2022,,1000,títulos
+K24,Estrenos por año,Serie,2023,,1000,títulos
+K24,Estrenos por año,Serie,2024,,1000,títulos
+K24,Estrenos por año,Serie,2025,,991,títulos
+K17,Cantidad de géneros,Serie,,,17,géneros
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Serie,Telenovela,1,155.46,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Serie,Talk show,2,130.61,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Serie,Noticias,3,102.0,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Serie,Reality,4,79.33,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Serie,Familia,5,76.31,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Serie,Acción,6,67.4,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Serie,Aventura,7,67.4,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Serie,Comedia,8,66.38,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Serie,Drama,9,64.17,índice relativo
+K18,Top 10 géneros por popularidad promedio (≥ 100 títulos),Serie,Crimen,10,63.18,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Serie,Brasil,1,131.94,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Serie,México,2,98.88,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Serie,Países Bajos,3,97.78,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Serie,India,4,96.71,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Serie,Chile,5,96.28,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Serie,Francia,6,91.42,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Serie,Estados Unidos,7,86.07,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Serie,Filipinas,8,85.32,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Serie,España,9,82.45,índice relativo
+K19,Top 10 países por popularidad promedio (≥ 100 títulos),Serie,Canadá,10,73.33,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Serie,Portugués,1,140.24,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Serie,Hindi,2,99.37,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Serie,Español,3,88.58,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Serie,Tagalo,4,85.91,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Serie,Francés,5,83.17,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Serie,Neerlandés,6,76.31,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Serie,Inglés,7,72.49,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Serie,Alemán,8,64.43,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Serie,Coreano,9,63.12,índice relativo
+K20,Top 10 idiomas por popularidad promedio (≥ 100 títulos),Serie,Turco,10,61.52,índice relativo
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Animación,1,7.55,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Ciencia ficción,2,7.5,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Fantasía,3,7.5,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Documental,4,7.5,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Acción,5,7.48,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Aventura,6,7.48,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Bélica,7,7.43,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Drama,8,7.43,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Familia,9,7.42,escala 0-10
+K21,Top 10 géneros por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Misterio,10,7.41,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,China,1,7.83,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Corea del Sur,2,7.7,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Japón,3,7.59,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,México,4,7.53,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Reino Unido,5,7.25,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Estados Unidos,6,7.25,escala 0-10
+K22,Top 10 países por rating promedio (≥ 100 títulos con ≥ 20 votos),Serie,Canadá,7,7.23,escala 0-10
+K23,Top 10 títulos con más votos,Serie,Game of Thrones,1,24664,votos
+K23,Top 10 títulos con más votos,Serie,Money Heist,2,18791,votos
+K23,Top 10 títulos con más votos,Serie,Stranger Things,3,18075,votos
+K23,Top 10 títulos con más votos,Serie,The Walking Dead,4,16790,votos
+K23,Top 10 títulos con más votos,Serie,Squid Game,5,15536,votos
+K23,Top 10 títulos con más votos,Serie,Lucifer,6,14889,votos
+K23,Top 10 títulos con más votos,Serie,Riverdale,7,13505,votos
+K23,Top 10 títulos con más votos,Serie,The Good Doctor,8,12498,votos
+K23,Top 10 títulos con más votos,Serie,WandaVision,9,12125,votos
+K23,Top 10 títulos con más votos,Serie,Loki,10,11751,votos
+K25,Top 10 directores por títulos,Serie,Don Michael Perez,1,21,títulos
+K25,Top 10 directores por títulos,Serie,Dominic Zapata,2,21,títulos
+K25,Top 10 directores por títulos,Serie,Gil Tejada Jr.,3,17,títulos
+K25,Top 10 directores por títulos,Serie,Ricky Davao,4,15,títulos
+K25,Top 10 directores por títulos,Serie,Yu Zhong Zhong,5,14,títulos
+K25,Top 10 directores por títulos,Serie,Darnel Joy Villaflor,6,13,títulos
+K25,Top 10 directores por títulos,Serie,Mark A. Reyes,7,13,títulos
+K25,Top 10 directores por títulos,Serie,Nah Yung-suk,8,13,títulos
+K25,Top 10 directores por títulos,Serie,Andoy Ranay,9,12,títulos
+K25,Top 10 directores por títulos,Serie,Gina Alajar,10,12,títulos
+K26,Top 10 actores por títulos,Serie,Kana Hanazawa,1,72,títulos
+K26,Top 10 actores por títulos,Serie,Ai Kayano,2,51,títulos
+K26,Top 10 actores por títulos,Serie,Yoko Hikasa,3,48,títulos
+K26,Top 10 actores por títulos,Serie,Yuichi Nakamura,4,47,títulos
+K26,Top 10 actores por títulos,Serie,Natsuki Hanae,5,45,títulos
+K26,Top 10 actores por títulos,Serie,Saori Hayami,6,43,títulos
+K26,Top 10 actores por títulos,Serie,Takahiro Sakurai,7,43,títulos
+K26,Top 10 actores por títulos,Serie,Yuki Kaji,8,43,títulos
+K26,Top 10 actores por títulos,Serie,Haruka Tomatsu,9,42,títulos
+K26,Top 10 actores por títulos,Serie,Tomokazu Sugita,10,40,títulos
+F01,Películas con datos financieros válidos,Serie,,,No aplica,películas
+F02,Ingreso total (películas válidas),Serie,,,No aplica,USD
+F03,Presupuesto total (películas válidas),Serie,,,No aplica,USD
+F04,ROI mediano (ingresos / presupuesto),Serie,,,No aplica,razón (x)
+F05,Género con mejor ROI mediano,Serie,,,No aplica,género
+F07,Presupuesto promedio (películas válidas),Serie,,,No aplica,USD
+F08,Top 10 películas por ingresos,Serie,,,No aplica,USD
+F09,Top 10 películas por ROI,Serie,,,No aplica,razón (x)
+F10,Top 10 películas por ROI con presupuesto reducido,Serie,,,No aplica,razón (x)

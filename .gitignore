@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archivos temporales de Office y del sistema
+~$*
+*.tmp
+Thumbs.db
+.DS_Store

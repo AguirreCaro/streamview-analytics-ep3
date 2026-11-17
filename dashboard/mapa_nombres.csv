@@ -1,0 +1,48 @@
+objeto,nombre_actual,nombre_nuevo,nota
+tabla,streamview_powerbi (1),contenido,Una fila por título (31.991)
+tabla,genero_puente,genero_puente,Sin cambio. Una fila por género de cada título
+columna contenido,content_id,id_contenido,Clave del título (tipo + id de la fuente)
+columna contenido,show_id,id_fuente,
+columna contenido,type,tipo,Valores: Película / Serie (antes Movie / TV Show)
+columna contenido,title,titulo,No se traduce (nombre propio)
+columna contenido,main_genre,genero_principal,Valores en español
+columna contenido,main_country,pais_principal,Valores en español. Categoría de datos: País o región
+columna contenido,language,idioma,Nombre del idioma (antes código ISO)
+columna contenido,release_year,anio_estreno,
+columna contenido,year_added,anio_incorporacion,
+columna contenido,decade,decada,
+columna contenido,vote_average,rating,Puntaje 0-10
+columna contenido,vote_count,votos,
+columna contenido,popularity,popularidad,Índice relativo
+columna contenido,budget,presupuesto_usd,
+columna contenido,revenue,ingresos_usd,
+columna contenido,roi,roi,Sin cambio
+columna contenido,financiero_valido,financiero_valido,Sin cambio. Tipo True/False
+columna contenido,rating_confiable,rating_confiable,Sin cambio. Tipo True/False
+columna contenido,seasons,temporadas,
+columna genero_puente,content_id,id_contenido,
+columna genero_puente,type,tipo,
+columna genero_puente,genero,genero,Sin cambio. Valores en español
+medida,Total_Titulos,Total de títulos,Reemplazar expresión por la de medidas_dax.dax
+medida,Popularidad_Promedio,Popularidad promedio (índice),Reemplazar expresión
+medida,ROI_Mediano,ROI mediano (x),Reemplazar expresión
+medida,Rating_Promedio,Rating promedio (0-10),Reemplazar expresión
+medida,Peliculas_Validas,Películas con datos financieros,Reemplazar expresión
+medida,Presupuesto_Total,Presupuesto total (USD millones),Reemplazar expresión: ahora en millones de USD
+medida,Ingreso_Total,Ingreso total (USD millones),Reemplazar expresión: ahora en millones de USD
+medida nueva,,Títulos con rating confiable,
+medida nueva,,Rating promedio de referencia,
+medida nueva,,ROI mediano de referencia,
+medida nueva,,Color rating por género,
+medida nueva,,Color ROI por género,
+medida nueva,,Subtítulo catálogo,
+medida nueva,,Subtítulo rating,
+medida nueva,,Subtítulo ROI,
+columna calculada contenido,,titulo_visual,Etiqueta única por título para los rankings (DAX al final de medidas_dax.dax)
+medida eliminada,ROI_Calculo,,Dividía la suma de ingresos entre la suma de presupuestos; ningún gráfico la usaba
+medida nueva,,Rating para ordenar,Desempata el Top 10 de rating por votos
+medida nueva,,Títulos con país informado,Usa KEEPFILTERS
+medida nueva,,Subtítulo n rating,
+medida nueva,,Subtítulo países,
+medida nueva,,Subtítulo popularidad,
+medida nueva,,Subtítulo ROI total,

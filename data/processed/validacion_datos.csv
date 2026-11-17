@@ -1,0 +1,53 @@
+seccion,metrica,valor,detalle
+1_filas_por_paso,Películas (fuente 1),16000,netflix_movies_detailed_up_to_2025.csv
+1_filas_por_paso,Series (fuente 2),16000,netflix_tv_shows_detailed_up_to_2025.csv
+1_filas_por_paso,Unión de ambas fuentes,32000,concat con columnas comunes
+1_filas_por_paso,Duplicados eliminados,9,mismo id de la fuente + título + tipo
+1_filas_por_paso,Dataset limpio (una fila por título),31991,streamview_content_clean.csv
+1_filas_por_paso,Filas de la tabla puente título-género,70521,genero_puente.csv (un título puede tener varios géneros)
+2_nulos_por_columna_%,id_fuente,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,tipo,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,titulo,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,director,34.7,% de filas con valor nulo
+2_nulos_por_columna_%,reparto,4.3,% de filas con valor nulo
+2_nulos_por_columna_%,paises,7.1,% de filas con valor nulo
+2_nulos_por_columna_%,fecha_incorporacion,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,anio_estreno,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,rating_fuente,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,generos_fuente,3.4,% de filas con valor nulo
+2_nulos_por_columna_%,idioma,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,descripcion,10.4,% de filas con valor nulo
+2_nulos_por_columna_%,popularidad,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,votos,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,rating,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,presupuesto_usd,50.0,% de filas con valor nulo
+2_nulos_por_columna_%,ingresos_usd,50.0,% de filas con valor nulo
+2_nulos_por_columna_%,temporadas,50.0,% de filas con valor nulo
+2_nulos_por_columna_%,duracion_min,100.0,% de filas con valor nulo
+2_nulos_por_columna_%,anio_incorporacion,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,decada,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,id_contenido,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,generos,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,genero_principal,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,pais_principal,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,financiero_valido,0.0,% de filas con valor nulo
+2_nulos_por_columna_%,roi,89.4,% de filas con valor nulo
+2_nulos_por_columna_%,rating_confiable,0.0,% de filas con valor nulo
+3_decisiones,Títulos sin género informado (Película),107,"generos_fuente vacío en la fuente: se mantienen en conteos de catálogo, se excluyen de rankings por género"
+3_decisiones,Títulos sin género informado (Serie),974,"generos_fuente vacío en la fuente: se mantienen en conteos de catálogo, se excluyen de rankings por género"
+3_decisiones,Títulos sin país informado,2261,se mantienen en el catálogo; se excluyen del ranking de países
+3_decisiones,Títulos con rating confiable (>= 20 votos),18371,solo ellos entran al rating promedio
+3_decisiones,Películas con financieros válidos,3386,presupuesto >= 1.000.000 USD e ingresos > 0. de 16.000 películas
+3_decisiones,Películas con presupuesto/ingresos > 0 pero bajo el umbral,154,se descartan del análisis financiero
+4_unidades,presupuesto_usd / ingresos_usd,USD,
+4_unidades,rating,escala 0-10 (promedio de votos TMDB; no es clasificación etaria),
+4_unidades,votos,número de votos,
+4_unidades,popularidad,índice relativo TMDB (sin unidad),
+4_unidades,roi,"razón ingresos / presupuesto (sin unidad; 1,0 = recupera lo invertido)",
+4_unidades,anio_estreno / anio_incorporacion,año calendario,
+4_unidades,temporadas,número de temporadas (solo series),
+5_traduccion,Tipos de contenido traducidos,2,Movie → Película; TV Show → Serie
+5_traduccion,Géneros traducidos,24,taxonomía unificada + «Sin género informado»; valores distintos en el dataset: 24 (principal)
+5_traduccion,Países traducidos,148,nombres en español + «Sin país informado»; valores distintos en el dataset: 123
+5_traduccion,Idiomas traducidos,83,código ISO → nombre; valores distintos en el dataset: 83
+5_traduccion,Valores sin traducir,0,"no se traducen títulos, directores ni reparto (nombres propios)"
